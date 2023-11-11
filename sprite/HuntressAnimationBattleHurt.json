@@ -1,0 +1,30 @@
+{
+    "spriteSheetURL": "./graphics/Huntress/Huntress-TakeHit.png",
+    "type":"none",
+    "size":[150,150],
+    "sprites":[
+        
+        {
+            "name":"huntress_1_BH",
+            "x":300,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"huntress_2_BH",
+            "x":150,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"huntress_3_BH",
+            "x":0,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+            
+    ]
+}

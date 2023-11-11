@@ -1,0 +1,65 @@
+{
+    "spriteSheetURL": "./graphics/Water_Splash_2.png",
+    "type":"none",
+    "size":[66,77],
+    "sprites":[
+
+        {
+            "name":"watersplash_1",
+            "x":132,
+            "y":154,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"watersplash_2",
+            "x":198,
+            "y":154,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"watersplash_3",
+            "x":264,
+            "y":154,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"watersplash_4",
+            "x":0,
+            "y":231,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"watersplash_5",
+            "x":66,
+            "y":231,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"watersplash_6",
+            "x":132,
+            "y":231,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"watersplash_7",
+            "x":198,
+            "y":231,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"watersplash_8",
+            "x":264,
+            "y":231,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+
+    ]
+}

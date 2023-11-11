@@ -1,0 +1,42 @@
+{
+    "spriteSheetURL": "./graphics/Dark_rogue/Rogue_full.png",
+    "type":"none",
+    "size":[50,38],
+    "sprites":[
+        {
+            "name":"rogue_1_Hurt",
+            "x":0,
+            "y":304,
+            "scalefactor":3,
+            "colorKey":-1
+	   },
+        {
+            "name":"rogue_2_Hurt",
+            "x":50,
+            "y":304,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"rogue_3_Hurt",
+            "x":100,
+            "y":304,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"rogue_4_Hurt",
+            "x":150,
+            "y":304,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"rogue_5_Hurt",
+            "x":200,
+            "y":304,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+    ]
+}

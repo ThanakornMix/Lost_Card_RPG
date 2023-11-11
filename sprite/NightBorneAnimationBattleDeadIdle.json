@@ -1,0 +1,22 @@
+{
+    "spriteSheetURL": "./graphics/NightBorne/NightBorne.png",
+    "type":"none",
+    "size":[80,80],
+    "sprites":[
+        
+        {
+            "name":"nightborne_24_BD",
+            "x":0,
+            "y":0,
+            "scalefactor":5,
+            "colorKey":-1
+        },
+        {
+            "name":"nightborne_24_BD",
+            "x":0,
+            "y":0,
+            "scalefactor":5,
+            "colorKey":-1
+        }          
+    ]
+}

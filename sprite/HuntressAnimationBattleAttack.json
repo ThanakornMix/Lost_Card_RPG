@@ -1,0 +1,44 @@
+{
+    "spriteSheetURL": "./graphics/Huntress/Huntress-Attack.png",
+    "type":"none",
+    "size":[150,150],
+    "sprites":[
+        
+        {
+            "name":"huntress_1_BA",
+            "x":600,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"huntress_2_BA",
+            "x":450,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"huntress_3_BA",
+            "x":300,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"huntress_4_BA",
+            "x":150,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"huntress_5_BA",
+            "x":0,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+            
+    ]
+}

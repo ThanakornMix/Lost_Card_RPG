@@ -1,0 +1,65 @@
+{
+    "spriteSheetURL": "./graphics/Huntress/Huntress-Death.png",
+    "type":"none",
+    "size":[150,150],
+    "sprites":[
+        
+        {
+            "name":"huntress_1_BD",
+            "x":1050,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"huntress_2_BD",
+            "x":900,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"huntress_3_BD",
+            "x":750,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"huntress_4_BD",
+            "x":600,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"huntress_5_BD",
+            "x":450,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"huntress_6_BD",
+            "x":300,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"huntress_7_BD",
+            "x":150,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"huntress_8_BD",
+            "x":0,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+            
+    ]
+}

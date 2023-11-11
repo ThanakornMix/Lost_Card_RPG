@@ -1,0 +1,37 @@
+{
+    "spriteSheetURL": "./graphics/Skeleton/SkeletonIdle.png",
+    "type":"none",
+    "size":[150,150],
+    "sprites":[
+        
+        {
+            "name":"skeleton_1_BI",
+            "x":450,
+            "y":0,
+            "scalefactor":2,
+            "colorKey":-1
+        },
+        {
+            "name":"skeleton_2_BI",
+            "x":300,
+            "y":0,
+            "scalefactor":2,
+            "colorKey":-1
+        },
+        {
+            "name":"skeleton_3_BI",
+            "x":150,
+            "y":0,
+            "scalefactor":2,
+            "colorKey":-1
+        },
+		{
+            "name":"skeleton_4_BI",
+            "x":0,
+            "y":0,
+            "scalefactor":2,
+            "colorKey":-1
+        }
+            
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "spriteSheetURL": "./graphics/Huntress/Huntress-Idle.png",
+    "type":"none",
+    "size":[150,150],
+    "sprites":[
+        
+        {
+            "name":"huntress_1_BI",
+            "x":1050,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"huntress_2_BI",
+            "x":900,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"huntress_3_BI",
+            "x":750,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"huntress_4_BI",
+            "x":600,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"huntress_5_BI",
+            "x":450,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"huntress_6_BI",
+            "x":300,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"huntress_7_BI",
+            "x":150,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"huntress_8_BI",
+            "x":0,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+            
+    ]
+}

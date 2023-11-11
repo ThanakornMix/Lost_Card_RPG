@@ -1,0 +1,65 @@
+{
+    "spriteSheetURL": "./graphics/wizard/Sprites/Attack1.png",
+    "type":"none",
+    "size":[250,250],
+    "sprites":[
+        
+        {
+            "name":"wizard_1_BA",
+            "x":0,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"wizard_2_BA",
+            "x":250,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"wizard_3_BA",
+            "x":500,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"wizard_4_BA",
+            "x":750,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"wizard_5_BA",
+            "x":1000,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"wizard_6_BA",
+            "x":1250,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"wizard_7_BA",
+            "x":1500,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"wizard_8_BA",
+            "x":1750,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+            
+    ]
+}

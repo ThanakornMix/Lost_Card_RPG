@@ -1,0 +1,23 @@
+{
+    "spriteSheetURL": "./graphics/Huntress/Huntress-Death.png",
+    "type":"none",
+    "size":[150,150],
+    "sprites":[
+        
+		{
+            "name":"huntress_8_BD",
+            "x":0,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"huntress_8_BD",
+            "x":0,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+            
+    ]
+}

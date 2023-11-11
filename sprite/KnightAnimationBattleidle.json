@@ -1,0 +1,21 @@
+{
+    "spriteSheetURL": "./graphics/Knight_enemy_level1/Idle.png",
+    "type":"none",
+    "size":[86,86],
+    "sprites":[
+        {
+            "name":"knight_1_Idle",
+            "x":0,
+            "y":0,
+            "scalefactor":2,
+            "colorKey":-1
+	   },
+        {
+            "name":"knight_2_Idle",
+            "x":0,
+            "y":0,
+            "scalefactor":2,
+            "colorKey":-1
+        }
+    ]
+}

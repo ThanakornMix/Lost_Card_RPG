@@ -1,0 +1,23 @@
+{
+    "spriteSheetURL": "./graphics/NecroSkeleton/NecroSkeleton.png",
+    "type":"none",
+    "size":[64,64],
+    "sprites":[
+        
+		{
+            "name":"necskeleton_13_BD",
+            "x":0,
+            "y":64,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"necskeleton_13_BD",
+            "x":0,
+            "y":64,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+            
+    ]
+}

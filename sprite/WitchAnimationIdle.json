@@ -1,0 +1,42 @@
+{
+    "spriteSheetURL": "./graphics/Blue_witch/B_witch_charge.png",
+    "type":"none",
+    "size":[48,48],
+    "sprites":[
+        {
+            "name":"witch_charge_1",
+            "x":0,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+	   },
+        {
+            "name":"witch_charge_2",
+            "x":0,
+            "y":48,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"witch_charge_3",
+            "x":0,
+            "y":96,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"witch_charge_4",
+            "x":0,
+            "y":144,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"witch_charge_5",
+            "x":0,
+            "y":192,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+    ]
+}

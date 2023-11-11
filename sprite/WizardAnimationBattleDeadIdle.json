@@ -1,0 +1,23 @@
+{
+    "spriteSheetURL": "./graphics/wizard/Sprites/Death.png",
+    "type":"none",
+    "size":[250,250],
+    "sprites":[
+        
+        {
+            "name":"wizard_7_BD",
+            "x":1500,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"wizard_7_BD",
+            "x":1500,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+            
+    ]
+}

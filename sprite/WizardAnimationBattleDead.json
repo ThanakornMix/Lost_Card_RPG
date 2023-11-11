@@ -1,0 +1,58 @@
+{
+    "spriteSheetURL": "./graphics/wizard/Sprites/Death.png",
+    "type":"none",
+    "size":[250,250],
+    "sprites":[
+        
+        {
+            "name":"wizard_1_BD",
+            "x":0,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"wizard_2_BD",
+            "x":250,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"wizard_3_BD",
+            "x":500,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"wizard_4_BD",
+            "x":750,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"wizard_5_BD",
+            "x":1000,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"wizard_6_BD",
+            "x":1250,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"wizard_7_BD",
+            "x":1500,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+            
+    ]
+}

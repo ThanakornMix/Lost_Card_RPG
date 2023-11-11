@@ -1,0 +1,35 @@
+{
+    "spriteSheetURL": "./graphics/Dark_rogue/Rogue_full.png",
+    "type":"none",
+    "size":[50,38],
+    "sprites":[
+        {
+            "name":"rogue_1_BI",
+            "x":0,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+	   },
+        {
+            "name":"rogue_2_BI",
+            "x":50,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"rogue_3_BI",
+            "x":100,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"rogue_4_BI",
+            "x":150,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+    ]
+}

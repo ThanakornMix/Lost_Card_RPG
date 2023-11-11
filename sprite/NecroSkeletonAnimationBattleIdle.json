@@ -1,0 +1,37 @@
+{
+    "spriteSheetURL": "./graphics/NecroSkeleton/NecroSkeleton.png",
+    "type":"none",
+    "size":[64,64],
+    "sprites":[
+        
+        {
+            "name":"necskeleton_1_BI",
+            "x":768,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"necskeleton_2_BI",
+            "x":704,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"necskeleton_3_BI",
+            "x":640,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"necskeleton_4_BI",
+            "x":576,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+            
+    ]
+}

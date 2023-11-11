@@ -1,0 +1,43 @@
+{
+    "spriteSheetURL": "./graphics/NightBorne/NightBorne.png",
+    "type":"none",
+    "size":[80,80],
+    "sprites":[
+        
+        {
+            "name":"nightborne_1_BH",
+            "x":1760,
+            "y":240,
+            "scalefactor":5,
+            "colorKey":-1
+        },
+        {
+            "name":"nightborne_2_BH",
+            "x":1680,
+            "y":240,
+            "scalefactor":5,
+            "colorKey":-1
+        },
+        {
+            "name":"nightborne_3_BH",
+            "x":1600,
+            "y":240,
+            "scalefactor":5,
+            "colorKey":-1
+        },
+		{
+            "name":"nightborne_4_BH",
+            "x":1520,
+            "y":240,
+            "scalefactor":5,
+            "colorKey":-1
+        },
+        {
+            "name":"nightborne_5_BH",
+            "x":1440,
+            "y":240,
+            "scalefactor":5,
+            "colorKey":-1
+        }           
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "spriteSheetURL": "./graphics/wizard/Sprites/Take hit.png",
+    "type":"none",
+    "size":[250,250],
+    "sprites":[
+        
+        {
+            "name":"wizard_1_BH",
+            "x":0,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"wizard_2_BH",
+            "x":250,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"wizard_3_BH",
+            "x":500,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+            
+    ]
+}

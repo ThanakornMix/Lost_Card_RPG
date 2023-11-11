@@ -1,0 +1,30 @@
+{
+    "spriteSheetURL": "./graphics/warrior/Sprites/Take hit.png",
+    "type":"none",
+    "size":[162,162],
+    "sprites":[
+        
+        {
+            "name":"warrior_1_BH",
+            "x":0,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"warrior_2_BH",
+            "x":162,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"warrior_3_BH",
+            "x":324,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+            
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "spriteSheetURL": "./graphics/warrior/Sprites/Attack3.png",
+    "type":"none",
+    "size":[162,162],
+    "sprites":[
+        
+        {
+            "name":"warrior_1_BS",
+            "x":0,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"warrior_2_BS",
+            "x":162,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"warrior_3_BS",
+            "x":324,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"warrior_4_BS",
+            "x":486,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"warrior_5_BS",
+            "x":648,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"warrior_6_BS",
+            "x":810,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"warrior_7_BS",
+            "x":972,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"warrior_8_BS",
+            "x":1134,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+            
+    ]
+}

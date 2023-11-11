@@ -1,0 +1,21 @@
+{
+    "spriteSheetURL": "./graphics/Knight_enemy_level1/Dead.png",
+    "type":"none",
+    "size":[81,86],
+    "sprites":[
+        {
+            "name":"knight_1_deadidle",
+            "x":405,
+            "y":0,
+            "scalefactor":2,
+            "colorKey":-1
+        },
+        {
+            "name":"knight_2_deadidle",
+            "x":405,
+            "y":0,
+            "scalefactor":2,
+            "colorKey":-1
+        }
+    ]
+}
