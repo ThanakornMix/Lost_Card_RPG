@@ -76,7 +76,8 @@ class Character():
 
     def hurt(self, damage):
         self.hp -= damage
-        # set variables to hurt animation
+        damage_text = DamageText(self.rect.centerx, self.rect.y, str(damage), (255, 255,255)) 
+        self.damage_text_group.add(damage_text)
         self.action = 2
         self.frame_index = 0
         self.update_time = pygame.time.get_ticks()
