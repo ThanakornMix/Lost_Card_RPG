@@ -19,12 +19,22 @@ class TextGenerator:
         self.text_index = 0
         self.fully_displayed = False
         self.typing_sound = gSounds['Retro_Single_v6']
+        self.skipped = False
 
     def text_generation(self):
+        while self.text_index <= len(self.text) and not self.skipped:
+            for event in pygame.event.get():
+                if event.type == pygame.QUIT:
+                    pygame.quit()
+                    sys.exit()
+                if event.type == pygame.KEYDOWN:
+                    if event.key == pygame.K_RETURN:
+                        self.skipped = True
 
-        while self.text_index <= len(self.text):
+            if self.skipped:
+                break
+
             time.sleep(self.delay)
-            #sound
             self.typing_sound.play()
             partial_text = self.text[:self.text_index]
             text_surface = self.font.render(partial_text, True, self.color)
@@ -35,10 +45,11 @@ class TextGenerator:
 
         if self.text_index > len(self.text):
             self.fully_displayed = True
-            time.sleep(1)  # Wait for 1 second after text fully appears
+            time.sleep(1)  
 
         return self.fully_displayed
 
     def text_generation_reset(self):
         self.fully_displayed = False
         self.text_index = 0
+        self.skipped = False
