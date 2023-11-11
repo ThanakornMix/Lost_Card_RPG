@@ -76,7 +76,7 @@ class Character():
 
     def hurt(self, damage):
         self.hp -= damage
-        damage_text = DamageText(self.rect.centerx, self.rect.y, str(damage), (255, 255,255)) 
+        damage_text = DamageText(self.rect.centerx, self.rect.y, str(damage), (255, 255, 255)) 
         self.damage_text_group.add(damage_text)
         self.action = 2
         self.frame_index = 0
