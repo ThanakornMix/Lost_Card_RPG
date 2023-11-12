@@ -26,4 +26,5 @@ class JokerItem(BaseItem):
     def action(self):
         #change
         self.player.max_hp += 30
+        self.player.acquired_joker = True
         pass

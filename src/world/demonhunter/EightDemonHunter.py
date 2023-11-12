@@ -31,6 +31,7 @@ class EightDemonHunter(BaseDemonHunter):
     def action(self):
         self.player.strength += 2
         self.player.hp += 10
+        self.player.acquired_joker = True
         pass
 
     def action2(self):
