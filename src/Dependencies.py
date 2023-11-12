@@ -66,10 +66,16 @@ gWarriorBattleDead_image_list = [sprite_collection["warrior_1_BD"].image, sprite
                                 sprite_collection["warrior_5_BD"].image,sprite_collection["warrior_6_BD"].image,
                                 sprite_collection["warrior_7_BD"].image]
 
+gWarriorBattleSkill2_image_list = [sprite_collection["warrior_1_BS2"].image, sprite_collection["warrior_2_BS2"].image,
+                                sprite_collection["warrior_3_BS2"].image, sprite_collection["warrior_4_BS2"].image,
+                                sprite_collection["warrior_5_BS2"].image,sprite_collection["warrior_6_BS2"].image,
+                                sprite_collection["warrior_7_BS2"].image]
+
 gWarriorBattleDeadIdle_image_list = [sprite_collection["warrior_7_BD"].image, sprite_collection["warrior_7_BD"].image]
 
 gWarriorBattle_image_list = [gWarriorBattleIdle_image_list, gWarriorBattleAttack_image_list, gWarriorBattleHurt_image_list,
-                             gWarriorBattleDead_image_list, gWarriorBattleDeadIdle_image_list,gWarriorBattleSkill_image_list]
+                             gWarriorBattleDead_image_list, gWarriorBattleDeadIdle_image_list,gWarriorBattleSkill_image_list, 
+                             gWarriorBattleSkill2_image_list]
 
 #wizard battle sprite
 gWizardBattleIdle_image_list = [sprite_collection["wizard_1_BI"].image, sprite_collection["wizard_2_BI"].image,
@@ -124,8 +130,14 @@ gRogueBattleHurt_image_list = [sprite_collection["rogue_1_Hurt"].image, sprite_c
                     sprite_collection["rogue_3_Hurt"].image, sprite_collection["rogue_4_Hurt"].image,
                     sprite_collection["rogue_5_Hurt"].image]
 
+gRogueBattleSkill2_image_list = [sprite_collection["rogue_1_BS2"].image, sprite_collection["rogue_2_BS2"].image,
+                    sprite_collection["rogue_3_BS2"].image, sprite_collection["rogue_4_BS2"].image,
+                    sprite_collection["rogue_5_BS2"].image, sprite_collection["rogue_6_BS2"].image,
+                    sprite_collection["rogue_7_BS2"].image, sprite_collection["rogue_8_BS2"].image,
+                    sprite_collection["rogue_9_BS2"].image, sprite_collection["rogue_10_BS2"].image]
+
 gRogueBattle_image_list = [gRogueBattleIdle_image_list, gRogueBattleAttack_image_list, gRogueBattleHurt_image_list, gRogueBattleDead_image_list,
-                           gRogueBattleDead_image_list, gRogueBattleSkill_image_list]
+                           gRogueBattleDead_image_list, gRogueBattleSkill_image_list, gRogueBattleSkill2_image_list]
 # end of rogue battle sprite
 
 #knight1
@@ -193,6 +205,9 @@ gWaterSplash_image_list = [sprite_collection["waterstart_1"].image, sprite_colle
                     sprite_collection["watersplash_4"].image, sprite_collection["watersplash_5"].image,
                     sprite_collection["watersplash_6"].image, sprite_collection["watersplash_7"].image,
                     sprite_collection["watersplash_8"].image]
+#Demon hunter sprite
+gDhunter_image_list = [sprite_collection["dhunter_1_BI"].image, sprite_collection["dhunter_2_BI"].image,
+                    sprite_collection["dhunter_3_BI"].image, sprite_collection["dhunter_4_BI"].image]
 
 #Skeleton sprite
 gSkeletonBattleIdle_image_list = [sprite_collection["skeleton_1_BI"].image, sprite_collection["skeleton_2_BI"].image,
@@ -380,6 +395,54 @@ gItemDark_image_list = [sprite_collection["dark_1"].image, sprite_collection["da
                     sprite_collection["dark_11"].image, sprite_collection["dark_12"].image,
                     sprite_collection["dark_13"].image, sprite_collection["dark_14"].image,
                     sprite_collection["dark_15"].image, sprite_collection["dark_16"].image]
+#Ice
+gItemIce_image_list = [sprite_collection["ice_1"].image, sprite_collection["ice_2"].image,
+                    sprite_collection["ice_3"].image, sprite_collection["ice_4"].image,
+                    sprite_collection["ice_5"].image, sprite_collection["ice_6"].image,
+                    sprite_collection["ice_7"].image, sprite_collection["ice_8"].image,
+                    sprite_collection["ice_9"].image, sprite_collection["ice_10"].image]
+#Thunder
+gItemThunder_image_list = [sprite_collection["thunder_1"].image, sprite_collection["thunder_2"].image,
+                    sprite_collection["thunder_3"].image, sprite_collection["thunder_4"].image,
+                    sprite_collection["thunder_5"].image, sprite_collection["thunder_6"].image,
+                    sprite_collection["thunder_7"].image, sprite_collection["thunder_8"].image,
+                    sprite_collection["thunder_9"].image, sprite_collection["thunder_10"].image,
+                    sprite_collection["thunder_11"].image, sprite_collection["thunder_12"].image,
+                    sprite_collection["thunder_13"].image, sprite_collection["thunder_14"].image,
+                    sprite_collection["thunder_15"].image, sprite_collection["thunder_16"].image]
+#Water
+gItemWater_image_list = [sprite_collection["water_5"].image, sprite_collection["water_6"].image,
+                    sprite_collection["water_7"].image, sprite_collection["water_8"].image,
+                    sprite_collection["water_9"].image, sprite_collection["water_10"].image,
+                    sprite_collection["water_11"].image, sprite_collection["water_12"].image,
+                    sprite_collection["water_13"].image, sprite_collection["water_14"].image,
+                    sprite_collection["water_15"].image, sprite_collection["water_16"].image,
+                    sprite_collection["water_17"].image, sprite_collection["water_18"].image,
+                    sprite_collection["water_19"].image, sprite_collection["water_20"].image,
+                    sprite_collection["water_21"].image]
+#Joker
+gItemJoker_image_list = [sprite_collection["joker_1"].image, sprite_collection["joker_2"].image,
+                    sprite_collection["joker_3"].image, sprite_collection["joker_4"].image,
+                    sprite_collection["joker_5"].image, sprite_collection["joker_6"].image,
+                    sprite_collection["joker_7"].image, sprite_collection["joker_8"].image,
+                    sprite_collection["joker_9"].image, sprite_collection["joker_10"].image,
+                    sprite_collection["joker_11"].image, sprite_collection["joker_12"].image]
+#Sword
+gItemSword_image_list = [sprite_collection["sword_1"].image, sprite_collection["sword_2"].image,
+                    sprite_collection["sword_3"].image, sprite_collection["sword_4"].image]
+#Scorpion
+gItemScorpion_image_list = [sprite_collection["Scorpion_1"].image, sprite_collection["Scorpion_2"].image,
+                    sprite_collection["Scorpion_3"].image, sprite_collection["Scorpion_4"].image]
+#Worm
+gItemWorm_image_list = [sprite_collection["Worm_1"].image, sprite_collection["Worm_2"].image,
+                    sprite_collection["Worm_3"].image, sprite_collection["Worm_4"].image,
+                    sprite_collection["Worm_5"].image, sprite_collection["Worm_6"].image,
+                    sprite_collection["Worm_7"].image, sprite_collection["Worm_8"].image]
+#Spider
+gItemSpider_image_list = [sprite_collection["Spider_1"].image, sprite_collection["Spider_2"].image,
+                    sprite_collection["Spider_3"].image, sprite_collection["Spider_4"].image,
+                    sprite_collection["Spider_5"].image, sprite_collection["Spider_6"].image,
+                    sprite_collection["Spider_7"].image, sprite_collection["Spider_8"].image]
 
 gSounds = {
     'music': pygame.mixer.Sound('sounds/music.wav'),
@@ -396,7 +459,9 @@ gSounds = {
     'water_droplets': pygame.mixer.Sound('sounds/droplets-in-a-cave.wav'),
     'weird-mysterious': pygame.mixer.Sound('sounds/weird-mysterious-motif.wav'),
     'door-creaking': pygame.mixer.Sound('sounds/door-creaking.wav'),
-    'mystery_unfold': pygame.mixer.Sound('sounds/mystery_unfold.wav')
+    'mystery_unfold': pygame.mixer.Sound('sounds/mystery_unfold.wav'),
+    'epic-orchestra': pygame.mixer.Sound('sounds/epic-orchestra.wav'),
+    'sad-violin': pygame.mixer.Sound('sounds/sad-violin.wav')
 }
 
 gFonts = {
@@ -419,3 +484,4 @@ from src.states.game.CardState import CardState
 from src.states.game.BattleState import BattleState
 from src.states.game.HealingState import HealingState
 from src.states.game.LootingState import LootingState
+from src.states.game.MeetingState import MeetingState

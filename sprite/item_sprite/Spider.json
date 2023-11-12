@@ -1,0 +1,65 @@
+{
+    "spriteSheetURL": "./graphics/item_icon/SkullSpiderIdleSide.png",
+    "type":"none",
+    "size":[32,32],
+    "sprites":[
+
+        {
+            "name":"Spider_1",
+            "x":0,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"Spider_2",
+            "x":32,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"Spider_3",
+            "x":64,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"Spider_4",
+            "x":96,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"Spider_5",
+            "x":128,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"Spider_6",
+            "x":160,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"Spider_7",
+            "x":192,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"Spider_8",
+            "x":224,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+
+    ]
+}

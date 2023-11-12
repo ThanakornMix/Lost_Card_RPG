@@ -1,0 +1,36 @@
+{
+    "spriteSheetURL": "./graphics/item_icon/GrassCutter.png",
+    "type":"none",
+    "size":[64,64],
+    "sprites":[
+
+        {
+            "name":"sword_1",
+            "x":0,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"sword_2",
+            "x":64,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"sword_3",
+            "x":128,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"sword_4",
+            "x":192,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+    ]
+}

@@ -48,6 +48,9 @@ class RollDiceState(BaseState):
     def Enter(self, params):
         #make change
         self.player = params['chosen']
+        #sounds
+        gSounds['late-hours'].play(-1)
+        gSounds['campfire_fireplace'].play(-1)
         pass
 
     def GetDice(self):

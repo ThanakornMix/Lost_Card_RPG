@@ -7,10 +7,11 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 
 
 class BaseItem():
-    def __init__(self, name, item_name, item_description):
+    def __init__(self, name, item_name, item_description, item_use):
         self.name = name
         self.item_name = item_name
         self.item_description = item_description
+        self.item_use = item_use
         self.animation_list = name
         self.frame_index = 0
         self.image = self.animation_list[self.frame_index]
@@ -24,6 +25,9 @@ class BaseItem():
         #Item description
         self.t_enter2 = self.small_font.render(self.item_description, False, (255, 255, 255))
         self.rect_des = self.t_enter2.get_rect(center=(WIDTH / 2, HEIGHT / 3 + 50))
+        #Item use
+        self.t_enter3 = self.small_font.render(self.item_use, False, (255, 255, 255))
+        self.rect_use = self.t_enter3.get_rect(center=(WIDTH / 2, HEIGHT / 3 + 100))
 
     def update(self):
         animation_cooldown = 100
@@ -46,6 +50,7 @@ class BaseItem():
     def draw(self):
         screen.blit(self.t_enter, self.rect_name)
         screen.blit(self.t_enter2, self.rect_des)
+        screen.blit(self.t_enter3, self.rect_use)
         screen.blit(self.image, self.rect)
 
     def action(self):

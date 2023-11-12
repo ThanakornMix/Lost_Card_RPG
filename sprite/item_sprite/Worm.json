@@ -1,0 +1,65 @@
+{
+    "spriteSheetURL": "./graphics/item_icon/CarnivorousWormIdleSide.png",
+    "type":"none",
+    "size":[32,32],
+    "sprites":[
+
+        {
+            "name":"Worm_1",
+            "x":0,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"Worm_2",
+            "x":32,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"Worm_3",
+            "x":64,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"Worm_4",
+            "x":96,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"Worm_5",
+            "x":128,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"Worm_6",
+            "x":160,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"Worm_7",
+            "x":192,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"Worm_8",
+            "x":224,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+
+    ]
+}

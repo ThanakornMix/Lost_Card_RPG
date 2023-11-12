@@ -1,0 +1,35 @@
+{
+    "spriteSheetURL": "./graphics/DemonHunter/Knight-Idle-Sheet.png",
+    "type":"none",
+    "size":[64,64],
+    "sprites":[
+        {
+            "name":"dhunter_1_BI",
+            "x":0,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+	   },
+        {
+            "name":"dhunter_2_BI",
+            "x":64,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"dhunter_3_BI",
+            "x":128,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"dhunter_4_BI",
+            "x":192,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+    ]
+}

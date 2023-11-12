@@ -10,8 +10,8 @@ class BattleMenu():
 
     # Function to display the fighting menu
     def display_fighting_menu(self):
-        menu_font = pygame.font.Font(None, 36)
-        menu_x, menu_y = 50, 300
+        menu_font = pygame.font.Font('./fonts/font.ttf', 30)
+        menu_x, menu_y = 50, 280
 
         for index, action in enumerate(self.action_list):
             text = menu_font.render(action, True, (255, 255, 255))

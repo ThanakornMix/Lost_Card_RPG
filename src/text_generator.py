@@ -45,7 +45,7 @@ class TextGenerator:
 
         if self.text_index > len(self.text):
             self.fully_displayed = True
-            time.sleep(1)  
+            time.sleep(1)
 
         return self.fully_displayed
 

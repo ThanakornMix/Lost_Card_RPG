@@ -9,6 +9,14 @@ from src.world.items.DarkItem import DarkItem
 from src.world.items.HolyItem import HolyItem
 from src.world.items.PistolItem import PistolItem
 from src.world.items.GravityItem import GravityItem
+from src.world.items.IceItem import IceItem
+from src.world.items.ThunderItem import ThunderItem
+from src.world.items.WaterItem import WaterItem
+from src.world.items.JokerItem import JokerItem
+from src.world.items.SwordItem import SwordItem
+from src.world.items.ScorpionItem import ScorpionItem
+from src.world.items.WormItem import WormItem
+from src.world.items.SpiderItem import SpiderItem
 
 #text generator
 from src.text_generator import TextGenerator
@@ -46,10 +54,7 @@ class LootingState(BaseState):
         self.item_X = WIDTH / 2
         self.item_Y = HEIGHT - HEIGHT / 3
         #item_list
-        self.item_list = [DarkItem(self.item_X, self.item_Y),
-                          HolyItem(self.item_X, self.item_Y),
-                          PistolItem(self.item_X, self.item_Y),
-                          GravityItem(self.item_X, self.item_Y)]
+        self.item_container = [0,1,3,4,5,6,7,8,9,10,11]
         #current_item
         self.current_item = 0
 
@@ -78,11 +83,29 @@ class LootingState(BaseState):
             self.player.X = self.playerResetRW_X
             self.player.Y = self.playerResetRW_Y
 
+        self.item_list = [DarkItem(self.item_X, self.item_Y, self.player),
+                          HolyItem(self.item_X, self.item_Y, self.player),
+                          PistolItem(self.item_X, self.item_Y, self.player),
+                          GravityItem(self.item_X, self.item_Y, self.player),
+                          IceItem(self.item_X, self.item_Y, self.player),
+                          ThunderItem(self.item_X, self.item_Y, self.player),
+                          WaterItem(self.item_X, self.item_Y, self.player),
+                          JokerItem(self.item_X, self.item_Y, self.player),
+                          SwordItem(self.item_X, self.item_Y, self.player),
+                          ScorpionItem(self.item_X, self.item_Y, self.player),
+                          WormItem(self.item_X, self.item_Y, self.player),
+                          SpiderItem(self.item_X, self.item_Y, self.player)]
+
+        random.shuffle(self.item_container)
+        self.show_item_1 = self.item_container[0]
+        self.show_item_2 = self.item_container[1]
+        self.show_item_3 = self.item_container[2]
+        #remove item
         #item
-        random.shuffle(self.item_list)
-        self.item_1 = self.item_list[0]
-        self.item_2 = self.item_list[1]
-        self.item_3 = self.item_list[2]
+        #random.shuffle(self.item_list_duplicate)
+        self.item_1 = self.item_list[self.show_item_1]
+        self.item_2 = self.item_list[self.show_item_2]
+        self.item_3 = self.item_list[self.show_item_3]
 
         #sound
         gSounds['door-creaking'].play()
@@ -134,9 +157,25 @@ class LootingState(BaseState):
                         self.player.X = self.playerResetRW_X
                         self.player.Y = self.playerResetRW_Y
 
+                    #item effect
+                    if self.current_item == 0:
+                        self.item_1.action()
+                        if len(self.item_container) > 3:
+                            self.item_container.remove(self.show_item_1)
+                    elif self.current_item == 1:
+                        self.item_2.action()
+                        if len(self.item_container) > 3:
+                            self.item_container.remove(self.show_item_2)
+                    elif self.current_item == 2:
+                        self.item_3.action()
+                        if len(self.item_container) > 3:
+                            self.item_container.remove(self.show_item_3)
+
                     self.player.reset()
                     self.player.draw()
                     #reset text
+                    #reset item
+                    self.item_list_duplicate = self.item_list
                     self.generator.text_generation_reset()
                     #music
                     self.confirm_sound = gSounds['confirm']

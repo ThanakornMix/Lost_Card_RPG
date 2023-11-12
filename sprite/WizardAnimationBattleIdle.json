@@ -7,56 +7,56 @@
             "name":"wizard_1_BI",
             "x":0,
             "y":0,
-            "scalefactor":3,
+            "scalefactor":2,
             "colorKey":-1
 	   },
         {
             "name":"wizard_2_BI",
             "x":250,
             "y":0,
-            "scalefactor":3,
+            "scalefactor":2,
             "colorKey":-1
         },
         {
             "name":"wizard_3_BI",
             "x":500,
             "y":0,
-            "scalefactor":3,
+            "scalefactor":2,
             "colorKey":-1
         },
         {
             "name":"wizard_4_BI",
             "x":750,
             "y":0,
-            "scalefactor":3,
+            "scalefactor":2,
             "colorKey":-1
         },
         {
             "name":"wizard_5_BI",
             "x":1000,
             "y":0,
-            "scalefactor":3,
+            "scalefactor":2,
             "colorKey":-1
         },
         {
             "name":"wizard_6_BI",
             "x":1250,
             "y":0,
-            "scalefactor":3,
+            "scalefactor":2,
             "colorKey":-1
         },
         {
             "name":"wizard_7_BI",
             "x":1500,
             "y":0,
-            "scalefactor":3,
+            "scalefactor":2,
             "colorKey":-1
 	   },
         {
             "name":"wizard_8_BI",
             "x":1750,
             "y":0,
-            "scalefactor":3,
+            "scalefactor":2,
             "colorKey":-1
 	   }
     ]

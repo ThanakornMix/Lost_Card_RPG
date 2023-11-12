@@ -2,7 +2,7 @@ from src.states.BaseState import BaseState
 import pygame, sys
 from src.constants import *
 from src.Dependencies import *
-
+from src.states.game.CardState import *
 #text generator
 from src.text_generator import TextGenerator
 # make change
@@ -73,8 +73,11 @@ class HealingState(BaseState):
         elif self.player.Class == "Wizard":
             self.player.X = self.playerW_X
             self.player.Y = self.playerW_Y
-        #healing to full
-        self.player.hp = self.player.max_hp
+        #healing logic card face - 25 since 3heart is 28 then x 10 /100(percentage healing)
+        self.player.hp += math.ceil(self.player.max_hp * (CardState.get_current_card(CardState)-25)*10)/100
+        #set the player to max if number is exceeding max hp
+        if self.player.hp>self.player.max_hp:
+            self.player.hp = self.player.max_hp
         #sound
         gSounds['water_droplets'].play(-1)
         gSounds['weird-mysterious'].play(-1)
@@ -114,8 +117,6 @@ class HealingState(BaseState):
                     #music
                     gSounds['water_droplets'].stop()
                     gSounds['weird-mysterious'].stop()
-                    gSounds['late-hours'].play(-1)
-                    gSounds['campfire_fireplace'].play(-1)
                     # shuffle
                     self.loading = 0
                     self.state_machine.Change('roll', {

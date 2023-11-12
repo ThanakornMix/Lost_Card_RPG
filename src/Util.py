@@ -109,12 +109,14 @@ class SpriteManager:
                 "./sprite/RogueAnimationBattleIdle.json",
                 "./sprite/RogueAnimationBattleSkill.json",
                 "./sprite/RogueAnimationBattleHurt.json",
+                "./sprite/RogueAnimationBattleSkill2.json",
                 #Warrior battle
                 "./sprite/WarriorAnimationBattleAttack.json",
                 "./sprite/WarriorAnimationBattleIdle.json",
                 "./sprite/WarriorAnimationBattleHurt.json",
                 "./sprite/WarriorAnimationBattleDead.json",
                 "./sprite/WarriorAnimationBattleSkill.json",
+                "./sprite/WarriorAnimationBattleSkill2.json",
                 #Wizard battle
                 "./sprite/WizardAnimationBattleAttack.json",
                 "./sprite/WizardAnimationBattleIdle.json",
@@ -166,7 +168,17 @@ class SpriteManager:
                 "./sprite/item_sprite/Dark.json",
                 "./sprite/item_sprite/Gravity.json",
                 "./sprite/item_sprite/Holy.json",
-                "./sprite/item_sprite/Pistol.json"
+                "./sprite/item_sprite/Pistol.json",
+                "./sprite/item_sprite/ice.json",
+                "./sprite/item_sprite/Thunder.json",
+                "./sprite/item_sprite/Water.json",
+                "./sprite/item_sprite/Joker.json",
+                "./sprite/item_sprite/Sword.json",
+                "./sprite/item_sprite/Scorpion.json",
+                "./sprite/item_sprite/Worm.json",
+                "./sprite/item_sprite/Spider.json",
+                #demon hunter
+                "./sprite/DhunterAnimationIdle.json"
             ]
         )
 

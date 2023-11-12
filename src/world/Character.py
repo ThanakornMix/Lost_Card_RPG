@@ -25,7 +25,12 @@ class Character():
         self.rect = self.image.get_rect()
         self.font = pygame.font.SysFont('Times New Roman', 26)
         self.damage_text_group = Group()
+        #change
         self.reset_pos = False
+        self.reset_pos = False
+        self.prev_strength = strength
+        self.evade = False
+        self.block = False
 
     def add_animation_list(self, name):
         for animation in name:
@@ -76,7 +81,7 @@ class Character():
 
     def hurt(self, damage):
         self.hp -= damage
-        damage_text = DamageText(self.rect.centerx, self.rect.y, str(damage), (255, 255, 255)) 
+        damage_text = DamageText(self.rect.centerx, self.rect.y, str(damage), (255, 255, 255))
         self.damage_text_group.add(damage_text)
         self.action = 2
         self.frame_index = 0
@@ -89,7 +94,6 @@ class Character():
 
     def reset(self):
         self.alive = True
-        self.hp = self.max_hp
         self.frame_index = 0
         self.action = 0
         self.update_time = pygame.time.get_ticks()

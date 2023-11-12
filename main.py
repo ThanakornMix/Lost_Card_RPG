@@ -24,7 +24,8 @@ class GameMain:
             'roll': RollDiceState(self.g_state_manager),
             'battle': BattleState(self.g_state_manager),
             'healing': HealingState(self.g_state_manager),
-            'looting': LootingState(self.g_state_manager)
+            'looting': LootingState(self.g_state_manager),
+            'meeting': MeetingState(self.g_state_manager)
         }
 
         self.g_state_manager.SetStates(states)
@@ -54,5 +55,3 @@ class GameMain:
 if __name__ == '__main__':
     main = GameMain()
     main.PlayGame()
-
-
