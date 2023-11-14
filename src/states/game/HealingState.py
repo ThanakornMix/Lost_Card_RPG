@@ -74,9 +74,10 @@ class HealingState(BaseState):
             self.player.X = self.playerW_X
             self.player.Y = self.playerW_Y
         #healing logic card face - 25 since 3heart is 28 then x 10 /100(percentage healing)
+        self.player.max_hp +=  (CardState.get_current_card(CardState)-25)*5
         self.player.hp += math.ceil(self.player.max_hp * (CardState.get_current_card(CardState)-25)*10)/100
         #set the player to max if number is exceeding max hp
-        if self.player.hp>self.player.max_hp:
+        if self.player.hp > self.player.max_hp:
             self.player.hp = self.player.max_hp
         #sound
         gSounds['water_droplets'].play(-1)

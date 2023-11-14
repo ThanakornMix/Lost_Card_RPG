@@ -8,56 +8,56 @@
             "name":"medking_1_BI",
             "x":1120,
             "y":0,
-            "scalefactor":2,
+            "scalefactor":3,
             "colorKey":-1
         },
         {
             "name":"medking_2_BI",
             "x":960,
             "y":0,
-            "scalefactor":2,
+            "scalefactor":3,
             "colorKey":-1
         },
         {
             "name":"medking_3_BI",
             "x":800,
             "y":0,
-            "scalefactor":2,
+            "scalefactor":3,
             "colorKey":-1
         },
 		{
             "name":"medking_4_BI",
             "x":640,
             "y":0,
-            "scalefactor":2,
+            "scalefactor":3,
             "colorKey":-1
         },
         {
             "name":"medking_5_BI",
             "x":480,
             "y":0,
-            "scalefactor":2,
+            "scalefactor":3,
             "colorKey":-1
         },
         {
             "name":"medking_6_BI",
             "x":320,
             "y":0,
-            "scalefactor":2,
+            "scalefactor":3,
             "colorKey":-1
         },
         {
             "name":"medking_7_BI",
             "x":160,
             "y":0,
-            "scalefactor":2,
+            "scalefactor":3,
             "colorKey":-1
         },
 		{
             "name":"medking_8_BI",
             "x":0,
             "y":0,
-            "scalefactor":2,
+            "scalefactor":3,
             "colorKey":-1
         }
             

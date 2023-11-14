@@ -1,0 +1,50 @@
+{
+    "spriteSheetURL": "./graphics/Elementals_metal_bladekeeper/metal_bladekeeper_FREE.png",
+    "type":"none",
+    "size":[288,128],
+    "sprites":[
+
+        {
+            "name":"bladekeeper_1_BH",
+            "x":0,
+            "y":1792,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"bladekeeper_2_BH",
+            "x":288,
+            "y":1792,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"bladekeeper_3_BH",
+            "x":576,
+            "y":1792,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"bladekeeper_4_BH",
+            "x":864,
+            "y":1792,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"bladekeeper_5_BH",
+            "x":1152,
+            "y":1792,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"bladekeeper_6_BH",
+            "x":1440,
+            "y":1792,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+    ]
+}

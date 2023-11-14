@@ -136,34 +136,109 @@ class SpriteManager:
                 #water
                 "./sprite/water_effect.json",
                 "./sprite/water_effect2.json",
-                #monsters
-                "./sprite/SkeletonAnimationBattleIdle.json",
-                "./sprite/SkeletonAnimationBattleAttack.json",
-                "./sprite/SkeletonAnimationBattleDead.json",
-                "./sprite/SkeletonAnimationBattleHurt.json",
-                "./sprite/SkeletonAnimationBattleSkill.json",
+
+                #Every stage Jack
                 "./sprite/NightBorneAnimationBattleIdle.json",
                 "./sprite/NightBorneAnimationBattleAttack.json",
                 "./sprite/NightBorneAnimationBattleDead.json",
                 "./sprite/NightBorneAnimationBattleHurt.json",
                 "./sprite/NightBorneAnimationBattleSkill.json",
                 "./sprite/NightBorneAnimationBattleDeadIdle.json",
-                "./sprite/NecroSkeletonAnimationBattleIdle.json",
-                "./sprite/NecroSkeletonAnimationBattleAttack.json",
-                "./sprite/NecroSkeletonAnimationBattleHurt.json",
-                "./sprite/NecroSkeletonAnimationBattleDead.json",
-                "./sprite/MedKingAnimationBattleHurt.json",
+
+                #King of Spade
                 "./sprite/MedKingAnimationBattleAttack.json",
                 "./sprite/MedKingAnimationBattleIdle.json",
                 "./sprite/MedKingAnimationBattleDeadIdle.json",
                 "./sprite/MedKingAnimationBattleSkill.json",
                 "./sprite/MedKingAnimationBattleDead.json",
+                "./sprite/MedKingAnimationBattleHurt.json",
+                "./sprite/MedKingAnimationBattleSkill2.json",
+
+                #Club mob
                 "./sprite/HuntressAnimationBattleHurt.json",
                 "./sprite/HuntressAnimationBattleAttack.json",
                 "./sprite/HuntressAnimationBattleIdle.json",
                 "./sprite/HuntressAnimationBattleDeadIdle.json",
                 "./sprite/HuntressAnimationBattleSkill.json",
                 "./sprite/HuntressAnimationBattleDead.json",
+                #Diamond mob
+                "./sprite/UndeadAnimationBattleHurt.json",
+                "./sprite/UndeadAnimationBattleAttack.json",
+                "./sprite/UndeadAnimationBattleIdle.json",
+                "./sprite/UndeadAnimationBattleDeadIdle.json",
+                "./sprite/UndeadAnimationBattleSkill.json",
+                "./sprite/UndeadAnimationBattleDead.json",
+                #Spade mob
+                "./sprite/HeroKnightAnimationBattleHurt.json",
+                "./sprite/HeroKnightAnimationBattleAttack.json",
+                "./sprite/HeroKnightAnimationBattleIdle.json",
+                "./sprite/HeroKnightAnimationBattleDeadIdle.json",
+                "./sprite/HeroKnightAnimationBattleSkill.json",
+                "./sprite/HeroKnightAnimationBattleDead.json",
+
+                #Queen of Club
+                "./sprite/GroundMonkAnimationBattleAttack.json",
+                "./sprite/GroundMonkAnimationBattleDead.json",
+                "./sprite/GroundMonkAnimationBattleDeadIdle.json",
+                "./sprite/GroundMonkAnimationBattleHurt.json",
+                "./sprite/GroundMonkAnimationBattleIdle.json",
+                "./sprite/GroundMonkAnimationBattleSkill.json",
+                "./sprite/GroundMonkAnimationBattleSkill2.json",
+                #Queen of Diamond
+                "./sprite/BladekeeperAnimationBattleAttack.json",
+                "./sprite/BladekeeperAnimationBattleDead.json",
+                "./sprite/BladekeeperAnimationBattleDeadIdle.json",
+                "./sprite/BladekeeperAnimationBattleHurt.json",
+                "./sprite/BladekeeperAnimationBattleIdle.json",
+                "./sprite/BladekeeperAnimationBattleSkill.json",
+                "./sprite/BladekeeperAnimationBattleSkill2.json",
+                #Queen of Heart
+                "./sprite/SpearwomanAnimationBattleAttack.json",
+                "./sprite/SpearwomanAnimationBattleDead.json",
+                "./sprite/SpearwomanAnimationBattleDeadIdle.json",
+                "./sprite/SpearwomanAnimationBattleHurt.json",
+                "./sprite/SpearwomanAnimationBattleIdle.json",
+                "./sprite/SpearwomanAnimationBattleSkill.json",
+                "./sprite/SpearwomanAnimationBattleSkill2.json",
+                #Queen of Spade
+                "./sprite/WaterPriestessAnimationBattleAttack.json",
+                "./sprite/WaterPriestessAnimationBattleDead.json",
+                "./sprite/WaterPriestessAnimationBattleDeadIdle.json",
+                "./sprite/WaterPriestessAnimationBattleHurt.json",
+                "./sprite/WaterPriestessAnimationBattleIdle.json",
+                "./sprite/WaterPriestessAnimationBattleSkill.json",
+                "./sprite/WaterPriestessAnimationBattleSkill2.json",
+                #King of Club
+                "./sprite/RangerAnimationBattleAttack.json",
+                "./sprite/RangerAnimationBattleDead.json",
+                "./sprite/RangerAnimationBattleDeadIdle.json",
+                "./sprite/RangerAnimationBattleHurt.json",
+                "./sprite/RangerAnimationBattleIdle.json",
+                "./sprite/RangerAnimationBattleSkill.json",
+                "./sprite/RangerAnimationBattleSkill2.json",
+                #King of Diamond
+                "./sprite/HashashinAnimationBattleAttack.json",
+                "./sprite/HashashinAnimationBattleDead.json",
+                "./sprite/HashashinAnimationBattleDeadIdle.json",
+                "./sprite/HashashinAnimationBattleHurt.json",
+                "./sprite/HashashinAnimationBattleIdle.json",
+                "./sprite/HashashinAnimationBattleSkill.json",
+                "./sprite/HashashinAnimationBattleSkill2.json",
+                #King of Heart
+                "./sprite/FireKnightAnimationBattleAttack.json",
+                "./sprite/FireKnightAnimationBattleDead.json",
+                "./sprite/FireKnightAnimationBattleDeadIdle.json",
+                "./sprite/FireKnightAnimationBattleHurt.json",
+                "./sprite/FireKnightAnimationBattleIdle.json",
+                "./sprite/FireKnightAnimationBattleSkill.json",
+                "./sprite/FireKnightAnimationBattleSkill2.json",
+                #undead
+                "./sprite/UndeadAnimationBattleHurt.json",
+                "./sprite/UndeadAnimationBattleAttack.json",
+                "./sprite/UndeadAnimationBattleIdle.json",
+                "./sprite/UndeadAnimationBattleDeadIdle.json",
+                "./sprite/UndeadAnimationBattleSkill.json",
+                "./sprite/UndeadAnimationBattleDead.json",
                 #item
                 "./sprite/item_sprite/Dark.json",
                 "./sprite/item_sprite/Gravity.json",
@@ -178,7 +253,30 @@ class SpriteManager:
                 "./sprite/item_sprite/Worm.json",
                 "./sprite/item_sprite/Spider.json",
                 #demon hunter
-                "./sprite/DhunterAnimationIdle.json"
+                "./sprite/DhunterAnimationIdle.json",
+                #skeleton
+                "./sprite/SkeletonAnimationBattleAttack.json",
+                "./sprite/SkeletonAnimationBattleDead.json",
+                "./sprite/SkeletonAnimationBattleDeadIdle.json",
+                "./sprite/SkeletonAnimationBattleHurt.json",
+                "./sprite/SkeletonAnimationBattleIdle.json",
+                "./sprite/SkeletonAnimationBattleSkill.json",
+                #cthulu
+                "./sprite/CthuluAnimationBattleHurt.json",
+                "./sprite/CthuluAnimationBattleAttack.json",
+                "./sprite/CthuluAnimationBattleIdle.json",
+                "./sprite/CthuluAnimationBattleDeadIdle.json",
+                "./sprite/CthuluAnimationBattleSkill.json",
+                "./sprite/CthuluAnimationBattleSkill2.json",
+                "./sprite/CthuluAnimationBattleDead.json",
+                #witch
+                "./sprite/WitchAnimationBattleHurt.json",
+                "./sprite/WitchAnimationBattleAttack.json",
+                "./sprite/WitchAnimationBattleIdle.json",
+                "./sprite/WitchAnimationBattleDeadIdle.json",
+                "./sprite/WitchAnimationBattleSkill.json",
+                "./sprite/WitchAnimationBattleDead1.json",
+                "./sprite/WitchAnimationBattleDead2.json"    
             ]
         )
 

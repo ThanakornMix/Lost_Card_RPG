@@ -1,0 +1,22 @@
+{
+    "spriteSheetURL": "./graphics/Elementals_metal_bladekeeper/metal_bladekeeper_FREE.png",
+    "type":"none",
+    "size":[288,128],
+    "sprites":[
+
+		{
+            "name":"bladekeeper_12_BD",
+            "x":3168,
+            "y":1920,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"bladekeeper_12_BD",
+            "x":3168,
+            "y":1920,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+    ]
+}

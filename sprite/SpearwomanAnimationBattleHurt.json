@@ -1,0 +1,36 @@
+{
+    "spriteSheetURL": "./graphics/Spearwoman/Spearwoman(lightning spear)-Sheet.png",
+    "type":"none",
+    "size":[128,115],
+    "sprites":[
+
+        {
+            "name":"spearwoman_1_BH",
+            "x":0,
+            "y":2645,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"spearwoman_2_BH",
+            "x":128,
+            "y":2645,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"spearwoman_3_BH",
+            "x":256,
+            "y":2645,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"spearwoman_4_BH",
+            "x":384,
+            "y":2645,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+    ]
+}

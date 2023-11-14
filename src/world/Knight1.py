@@ -7,7 +7,7 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 
 class Knight1(Character):
     def __init__(self, x = WIDTH / 2 - 96 + 400, y = HEIGHT - HEIGHT / 3 + 40):
-        super().__init__(name = gKnightBattle_image_list, max_hp = 50, strength = 2)
+        super().__init__(name = gKnightBattle_image_list, max_hp = 400, strength = 15)
         self.x = x
         self.y = y
         self.rect.center = (x, y)
@@ -24,7 +24,6 @@ class Knight1(Character):
 
     def hurt(self, damage):
         super().hurt(damage)
-        self.hp -= damage
 
     def reset(self):
         self.alive = True

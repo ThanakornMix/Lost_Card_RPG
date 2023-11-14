@@ -1,0 +1,35 @@
+{
+    "spriteSheetURL": "./graphics/Monsters_Creatures_Fantasy/Goblin/Take Hit.png",
+    "type":"none",
+    "size":[150,150],
+    "sprites":[
+        {
+            "name":"Goblin_1_BD",
+            "x":453,
+            "y":0,
+            "scalefactor":2,
+            "colorKey":-1
+	   },
+        {
+            "name":"Goblin_2_BD",
+            "x":302,
+            "y":0,
+            "scalefactor":2,
+            "colorKey":-1
+        },
+        {
+            "name":"Goblin_3_BD",
+            "x":151,
+            "y":0,
+            "scalefactor":2,
+            "colorKey":-1
+        },
+        {
+            "name":"Goblin_4_BD",
+            "x":0,
+            "y":0,
+            "scalefactor":2,
+            "colorKey":-1
+        }
+    ]
+}

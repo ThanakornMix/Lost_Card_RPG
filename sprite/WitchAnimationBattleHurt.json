@@ -1,0 +1,28 @@
+{
+    "spriteSheetURL": "./graphics/Blue_witch/B_witch_take_damage_enemies.png",
+    "type":"none",
+    "size":[32,48],
+    "sprites":[
+        {
+            "name":"witch_1_BH",
+            "x":0,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+	   },
+        {
+            "name":"witch_2_BH",
+            "x":0,
+            "y":48,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"witch_3_BH",
+            "x":0,
+            "y":96,
+            "scalefactor":3,
+            "colorKey":-1
+        } 
+    ]
+}

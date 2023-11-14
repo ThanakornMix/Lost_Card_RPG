@@ -1,0 +1,57 @@
+{
+    "spriteSheetURL": "./graphics/Elementals_water_priestess_FREE/water_FREE_SpriteSheet.png",
+    "type":"none",
+    "size":[288,128],
+    "sprites":[
+
+        {
+            "name":"priestess_1_BH",
+            "x":0,
+            "y":1664,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"priestess_2_BH",
+            "x":288,
+            "y":1664,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"priestess_3_BH",
+            "x":576,
+            "y":1664,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"priestess_4_BH",
+            "x":864,
+            "y":1664,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"priestess_5_BH",
+            "x":1152,
+            "y":1664,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"priestess_6_BH",
+            "x":1440,
+            "y":1664,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"priestess_7_BH",
+            "x":1728,
+            "y":1664,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+    ]
+}

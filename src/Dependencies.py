@@ -103,8 +103,13 @@ gWizardBattleDead_image_list = [sprite_collection["wizard_1_BD"].image, sprite_c
 
 gWizardBattleDeadIdle_image_list = [sprite_collection["wizard_7_BD"].image, sprite_collection["wizard_7_BD"].image]
 
+gWizardBattleSkill2_image_list = [sprite_collection["wizard_1_BD"].image, sprite_collection["wizard_2_BD"].image,
+                                  sprite_collection["wizard_1_BD"].image, sprite_collection["wizard_2_BD"].image,
+                                  sprite_collection["wizard_1_BD"].image, sprite_collection["wizard_2_BD"].image]
+
 gWizardBattle_image_list = [gWizardBattleIdle_image_list, gWizardBattleAttack_image_list, gWizardBattleHurt_image_list,
-                            gWizardBattleDead_image_list, gWizardBattleSkill_image_list,gWizardBattleDeadIdle_image_list]
+                            gWizardBattleDead_image_list,gWizardBattleDeadIdle_image_list, gWizardBattleSkill_image_list,
+                            gWizardBattleSkill2_image_list]
 
 #rogue battle sprite
 gRogueBattleIdle_image_list = [sprite_collection["rogue_1_BI"].image, sprite_collection["rogue_2_BI"].image,
@@ -209,32 +214,9 @@ gWaterSplash_image_list = [sprite_collection["waterstart_1"].image, sprite_colle
 gDhunter_image_list = [sprite_collection["dhunter_1_BI"].image, sprite_collection["dhunter_2_BI"].image,
                     sprite_collection["dhunter_3_BI"].image, sprite_collection["dhunter_4_BI"].image]
 
-#Skeleton sprite
-gSkeletonBattleIdle_image_list = [sprite_collection["skeleton_1_BI"].image, sprite_collection["skeleton_2_BI"].image,
-                    sprite_collection["skeleton_3_BI"].image, sprite_collection["skeleton_4_BI"].image]
-
-gSkeletonBattleAttack_image_list = [sprite_collection["skeleton_1_BA"].image, sprite_collection["skeleton_2_BA"].image,
-                    sprite_collection["skeleton_3_BA"].image, sprite_collection["skeleton_4_BA"].image,
-                    sprite_collection["skeleton_5_BA"].image, sprite_collection["skeleton_6_BA"].image,
-                    sprite_collection["skeleton_7_BA"].image, sprite_collection["skeleton_8_BA"].image]
-
-gSkeletonBattleHurt_image_list = [sprite_collection["skeleton_1_BH"].image, sprite_collection["skeleton_2_BH"].image,
-                    sprite_collection["skeleton_3_BH"].image, sprite_collection["skeleton_4_BH"].image]
-
-gSkeletonBattleDead_image_list = [sprite_collection["skeleton_1_BD"].image, sprite_collection["skeleton_2_BD"].image,
-                    sprite_collection["skeleton_3_BD"].image, sprite_collection["skeleton_4_BD"].image,
-                    sprite_collection["skeleton_4_BD"].image,]
-
-gSkeletonBattleDeadIdle_image_list = [sprite_collection["skeleton_4_BD"].image, sprite_collection["skeleton_4_BD"].image]
-
-gSkeletonBattleSkill_image_list = [sprite_collection["skeleton_1_BS"].image, sprite_collection["skeleton_2_BS"].image,
-                    sprite_collection["skeleton_3_BS"].image, sprite_collection["skeleton_4_BS"].image]
-
-gSkeletonBattle_image_list = [gSkeletonBattleIdle_image_list, gSkeletonBattleAttack_image_list, gSkeletonBattleHurt_image_list,
-                              gSkeletonBattleDead_image_list, gSkeletonBattleSkill_image_list]
 
 
-#NightBorne sprite
+#NightBorne sprite Every stage Jack
 gNightBorneBattleIdle_image_list = [sprite_collection["nightborne_1_BI"].image, sprite_collection["nightborne_2_BI"].image,
                     sprite_collection["nightborne_3_BI"].image, sprite_collection["nightborne_4_BI"].image,
                     sprite_collection["nightborne_5_BI"].image, sprite_collection["nightborne_6_BI"].image,
@@ -275,35 +257,9 @@ gNightBorneBattleSkill_image_list = [sprite_collection["nightborne_1_BS"].image,
 gNightBorneBattleDeadIdle_image_list = [sprite_collection["nightborne_24_BD"].image, sprite_collection["nightborne_24_BD"].image]
 
 gNightBorneBattle_image_list = [gNightBorneBattleIdle_image_list, gNightBorneBattleAttack_image_list, gNightBorneBattleHurt_image_list,
-                              gNightBorneBattleDead_image_list, gNightBorneBattleSkill_image_list]
+                              gNightBorneBattleDead_image_list, gNightBorneBattleDeadIdle_image_list, gNightBorneBattleSkill_image_list]
 
-#necSkeleton sprite
-gNecroSkeletonBattleIdle_image_list = [sprite_collection["necskeleton_1_BI"].image, sprite_collection["necskeleton_2_BI"].image,
-                    sprite_collection["necskeleton_3_BI"].image, sprite_collection["necskeleton_4_BI"].image]
 
-gNecroSkeletonBattleAttack_image_list = [sprite_collection["necskeleton_1_BA"].image, sprite_collection["necskeleton_2_BA"].image,
-                    sprite_collection["necskeleton_3_BA"].image, sprite_collection["necskeleton_4_BA"].image,
-                    sprite_collection["necskeleton_5_BA"].image, sprite_collection["necskeleton_6_BA"].image,
-                    sprite_collection["necskeleton_7_BA"].image, sprite_collection["necskeleton_8_BA"].image,
-                    sprite_collection["necskeleton_9_BA"].image, sprite_collection["necskeleton_10_BA"].image,
-                    sprite_collection["necskeleton_11_BA"].image, sprite_collection["necskeleton_12_BA"].image,
-                    sprite_collection["necskeleton_13_BA"].image]
-
-gNecroSkeletonBattleHurt_image_list = [sprite_collection["necskeleton_1_BH"].image, sprite_collection["necskeleton_1_BH"].image,
-                    sprite_collection["necskeleton_1_BH"].image]
-
-gNecroSkeletonBattleDead_image_list = [sprite_collection["necskeleton_1_BD"].image, sprite_collection["necskeleton_2_BD"].image,
-                    sprite_collection["necskeleton_3_BD"].image, sprite_collection["necskeleton_4_BD"].image,
-                    sprite_collection["necskeleton_5_BD"].image, sprite_collection["necskeleton_6_BD"].image,
-                    sprite_collection["necskeleton_7_BD"].image, sprite_collection["necskeleton_8_BD"].image,
-                    sprite_collection["necskeleton_9_BD"].image, sprite_collection["necskeleton_10_BD"].image,
-                    sprite_collection["necskeleton_11_BD"].image, sprite_collection["necskeleton_12_BD"].image,
-                    sprite_collection["necskeleton_13_BD"].image]
-
-gNecroSkeletonBattleDeadIdle_image_list = [sprite_collection["necskeleton_13_BD"].image, sprite_collection["necskeleton_13_BD"].image]
-
-gNecroSkeletonBattle_image_list = [gNecroSkeletonBattleIdle_image_list, gNecroSkeletonBattleAttack_image_list, gNecroSkeletonBattleHurt_image_list,
-                              gNecroSkeletonBattleDead_image_list, gNecroSkeletonBattleAttack_image_list]
 
 #Medieval King
 gMedKingBattleIdle_image_list = [sprite_collection["medking_1_BI"].image, sprite_collection["medking_2_BI"].image,
@@ -326,10 +282,14 @@ gMedKingBattleDead_image_list = [sprite_collection["medking_1_BD"].image, sprite
 
 gMedKingBattleDeadIdle_image_list = [sprite_collection["medking_6_BD"].image, sprite_collection["medking_6_BD"].image]
 
-gMedKingBattle_image_list = [gMedKingBattleIdle_image_list, gMedKingBattleAttack_image_list, gMedKingBattleHurt_image_list,
-                             gMedKingBattleDead_image_list, gMedKingBattleSkill_image_list]
+gMedKingBattleSkill2_image_list = [sprite_collection["medking_1_BS2"].image, sprite_collection["medking_2_BS2"].image,
+                    sprite_collection["medking_3_BS2"].image, sprite_collection["medking_4_BS2"].image]
 
-#Huntress
+gMedKingBattle_image_list = [gMedKingBattleIdle_image_list, gMedKingBattleAttack_image_list, gMedKingBattleHurt_image_list,
+                             gMedKingBattleDead_image_list, gMedKingBattleDeadIdle_image_list, gMedKingBattleSkill_image_list, 
+                             gMedKingBattleSkill2_image_list]
+
+#Huntress Stage1 mob
 gHuntressBattleIdle_image_list = [sprite_collection["huntress_1_BI"].image, sprite_collection["huntress_2_BI"].image,
                     sprite_collection["huntress_3_BI"].image, sprite_collection["huntress_4_BI"].image,
                     sprite_collection["huntress_5_BI"].image, sprite_collection["huntress_6_BI"].image,
@@ -357,6 +317,540 @@ gHuntressBattleDeadIdle_image_list = [sprite_collection["huntress_8_BD"].image, 
 
 gHuntressBattle_image_list = [gHuntressBattleIdle_image_list, gHuntressBattleAttack_image_list, gHuntressBattleHurt_image_list,
                              gHuntressBattleDead_image_list, gHuntressBattleSkill_image_list]
+
+#Heroknight sprite stage4 mob
+gHeroknightBattleIdle_image_list = [sprite_collection["heroknight_1_BI"].image, sprite_collection["heroknight_2_BI"].image,
+                    sprite_collection["heroknight_3_BI"].image, sprite_collection["heroknight_4_BI"].image,
+                    sprite_collection["heroknight_5_BI"].image, sprite_collection["heroknight_6_BI"].image,
+                    sprite_collection["heroknight_7_BI"].image, sprite_collection["heroknight_8_BI"].image,
+                    sprite_collection["heroknight_9_BI"].image, sprite_collection["heroknight_10_BI"].image,
+                    sprite_collection["heroknight_11_BI"].image]
+
+gHeroknightBattleAttack_image_list = [sprite_collection["heroknight_1_BA"].image, sprite_collection["heroknight_2_BA"].image,
+                    sprite_collection["heroknight_3_BA"].image, sprite_collection["heroknight_4_BA"].image,
+                    sprite_collection["heroknight_5_BA"].image, sprite_collection["heroknight_6_BA"].image,
+                    sprite_collection["heroknight_7_BA"].image]
+
+gHeroknightBattleDead_image_list = [sprite_collection["heroknight_1_BD"].image, sprite_collection["heroknight_2_BD"].image,
+                    sprite_collection["heroknight_3_BD"].image, sprite_collection["heroknight_4_BD"].image,
+                    sprite_collection["heroknight_5_BD"].image, sprite_collection["heroknight_6_BD"].image,
+                    sprite_collection["heroknight_7_BD"].image, sprite_collection["heroknight_8_BD"].image,
+                    sprite_collection["heroknight_9_BD"].image, sprite_collection["heroknight_10_BD"].image,
+                    sprite_collection["heroknight_11_BD"].image]
+
+gHeroknightBattleDeadIdle_image_list = [sprite_collection["heroknight_11_BD"].image, sprite_collection["heroknight_11_BD"].image]
+
+gHeroknightBattleSkill_image_list = [sprite_collection["heroknight_1_BS"].image, sprite_collection["heroknight_2_BS"].image,
+                    sprite_collection["heroknight_3_BS"].image, sprite_collection["heroknight_4_BS"].image,
+                    sprite_collection["heroknight_5_BS"].image, sprite_collection["heroknight_6_BS"].image,
+                    sprite_collection["heroknight_7_BS"].image]
+
+gHeroknightBattleHurt_image_list = [sprite_collection["heroknight_1_BH"].image, sprite_collection["heroknight_2_BH"].image,
+                    sprite_collection["heroknight_3_BH"].image, sprite_collection["heroknight_4_BH"].image]
+
+gHeroknightBattle_image_list = [gHeroknightBattleIdle_image_list, gHeroknightBattleAttack_image_list, gHeroknightBattleHurt_image_list,
+                              gHeroknightBattleDead_image_list, gHeroknightBattleSkill_image_list]
+
+#Undead Executioner sprite stage2 mob
+gUndeadBattleIdle_image_list = [sprite_collection["undead_1_BI"].image, sprite_collection["undead_2_BI"].image,
+                    sprite_collection["undead_3_BI"].image, sprite_collection["undead_4_BI"].image,
+                    sprite_collection["undead_5_BI"].image, sprite_collection["undead_6_BI"].image,
+                    sprite_collection["undead_7_BI"].image, sprite_collection["undead_8_BI"].image]
+
+gUndeadBattleAttack_image_list = [sprite_collection["undead_1_BA"].image, sprite_collection["undead_2_BA"].image,
+                    sprite_collection["undead_3_BA"].image, sprite_collection["undead_4_BA"].image,
+                    sprite_collection["undead_5_BA"].image, sprite_collection["undead_6_BA"].image,
+                    sprite_collection["undead_7_BA"].image, sprite_collection["undead_8_BA"].image,
+                    sprite_collection["undead_9_BA"].image, sprite_collection["undead_10_BA"].image,
+                    sprite_collection["undead_11_BA"].image, sprite_collection["undead_12_BA"].image,
+                    sprite_collection["undead_13_BA"].image]
+
+gUndeadBattleDead_image_list = [sprite_collection["undead_1_BD"].image, sprite_collection["undead_2_BD"].image,
+                    sprite_collection["undead_3_BD"].image, sprite_collection["undead_4_BD"].image,
+                    sprite_collection["undead_5_BD"].image, sprite_collection["undead_6_BD"].image,
+                    sprite_collection["undead_7_BD"].image, sprite_collection["undead_8_BD"].image,
+                    sprite_collection["undead_9_BD"].image, sprite_collection["undead_10_BD"].image,
+                    sprite_collection["undead_11_BD"].image, sprite_collection["undead_12_BD"].image,
+                    sprite_collection["undead_13_BD"].image, sprite_collection["undead_14_BD"].image,
+                    sprite_collection["undead_15_BD"].image, sprite_collection["undead_16_BD"].image,
+                    sprite_collection["undead_17_BD"].image, sprite_collection["undead_18_BD"].image,
+                    sprite_collection["undead_19_BD"].image]
+
+gUndeadBattleDeadIdle_image_list = [sprite_collection["undead_19_BD"].image, sprite_collection["undead_19_BD"].image]
+
+gUndeadBattleSkill_image_list = [sprite_collection["undead_1_BS"].image, sprite_collection["undead_2_BS"].image,
+                    sprite_collection["undead_3_BS"].image, sprite_collection["undead_4_BS"].image,
+                    sprite_collection["undead_5_BS"].image, sprite_collection["undead_6_BS"].image,
+                    sprite_collection["undead_7_BS"].image, sprite_collection["undead_8_BS"].image,
+                    sprite_collection["undead_9_BS"].image, sprite_collection["undead_10_BS"].image,
+                    sprite_collection["undead_11_BS"].image, sprite_collection["undead_12_BS"].image]
+
+gUndeadBattleHurt_image_list = [sprite_collection["undead_1_BH"].image, sprite_collection["undead_2_BH"].image,
+                    sprite_collection["undead_5_BH"].image, sprite_collection["undead_3_BH"].image,
+                    sprite_collection["undead_4_BH"].image]
+
+gUndeadBattle_image_list = [gUndeadBattleIdle_image_list, gUndeadBattleAttack_image_list, gUndeadBattleHurt_image_list,
+                              gUndeadBattleDead_image_list, gUndeadBattleSkill_image_list]
+
+#Cthulu sprite Secret boss
+gCthuluBattleIdle_image_list = [sprite_collection["cthulu_1_BI"].image, sprite_collection["cthulu_2_BI"].image,
+                    sprite_collection["cthulu_3_BI"].image, sprite_collection["cthulu_4_BI"].image,
+                    sprite_collection["cthulu_5_BI"].image, sprite_collection["cthulu_6_BI"].image,
+                    sprite_collection["cthulu_7_BI"].image, sprite_collection["cthulu_8_BI"].image,
+                    sprite_collection["cthulu_9_BI"].image, sprite_collection["cthulu_10_BI"].image,
+                    sprite_collection["cthulu_11_BI"].image, sprite_collection["cthulu_12_BI"].image,
+                    sprite_collection["cthulu_13_BI"].image, sprite_collection["cthulu_14_BI"].image,
+                    sprite_collection["cthulu_15_BI"].image]
+
+gCthuluBattleAttack_image_list = [sprite_collection["cthulu_1_BA"].image, sprite_collection["cthulu_2_BA"].image,
+                    sprite_collection["cthulu_3_BA"].image, sprite_collection["cthulu_4_BA"].image,
+                    sprite_collection["cthulu_5_BA"].image, sprite_collection["cthulu_6_BA"].image,
+                    sprite_collection["cthulu_7_BA"].image]
+
+gCthuluBattleDead_image_list = [sprite_collection["cthulu_1_BD"].image, sprite_collection["cthulu_2_BD"].image,
+                    sprite_collection["cthulu_3_BD"].image, sprite_collection["cthulu_4_BD"].image,
+                    sprite_collection["cthulu_5_BD"].image, sprite_collection["cthulu_6_BD"].image,
+                    sprite_collection["cthulu_7_BD"].image, sprite_collection["cthulu_8_BD"].image,
+                    sprite_collection["cthulu_9_BD"].image, sprite_collection["cthulu_10_BD"].image,
+                    sprite_collection["cthulu_11_BD"].image]
+
+gCthuluBattleDeadIdle_image_list = [sprite_collection["cthulu_11_BD"].image, sprite_collection["cthulu_11_BD"].image]
+
+gCthuluBattleSkill_image_list = [sprite_collection["cthulu_1_BS"].image, sprite_collection["cthulu_2_BS"].image,
+                    sprite_collection["cthulu_3_BS"].image, sprite_collection["cthulu_4_BS"].image,
+                    sprite_collection["cthulu_5_BS"].image, sprite_collection["cthulu_6_BS"].image,
+                    sprite_collection["cthulu_7_BS"].image, sprite_collection["cthulu_8_BS"].image,
+                    sprite_collection["cthulu_9_BS"].image]
+
+gCthuluBattleSkill2_image_list = [sprite_collection["cthulu_1_BS2"].image, sprite_collection["cthulu_2_BS2"].image,
+                    sprite_collection["cthulu_3_BS2"].image, sprite_collection["cthulu_4_BS2"].image,
+                    sprite_collection["cthulu_5_BS2"].image, sprite_collection["cthulu_6_BS2"].image]
+
+gCthuluBattleHurt_image_list = [sprite_collection["cthulu_1_BH"].image, sprite_collection["cthulu_2_BH"].image,
+                    sprite_collection["cthulu_3_BH"].image, sprite_collection["cthulu_4_BH"].image,
+                    sprite_collection["cthulu_5_BH"].image]
+
+gCthuluBattle_image_list = [gCthuluBattleIdle_image_list, gCthuluBattleAttack_image_list, gCthuluBattleHurt_image_list,
+                            gCthuluBattleDead_image_list, gCthuluBattleDeadIdle_image_list, gCthuluBattleSkill_image_list, gCthuluBattleSkill2_image_list]
+
+#Witch sprite
+gWitchBattleIdle_image_list = [sprite_collection["witch_1_BI"].image, sprite_collection["witch_1_BI"].image,
+                    sprite_collection["witch_3_BI"].image, sprite_collection["witch_4_BI"].image,
+                    sprite_collection["witch_5_BI"].image, sprite_collection["witch_6_BI"].image]
+
+gWitchBattleAttack_image_list = [sprite_collection["witch_1_BA"].image, sprite_collection["witch_1_BA"].image,
+                    sprite_collection["witch_3_BA"].image, sprite_collection["witch_4_BA"].image,
+                    sprite_collection["witch_5_BA"].image, sprite_collection["witch_6_BA"].image,
+                    sprite_collection["witch_7_BA"].image, sprite_collection["witch_8_BA"].image,
+                    sprite_collection["witch_9_BA"].image]
+
+gWitchBattleDead_image_list = [sprite_collection["witch_1_BD"].image, sprite_collection["witch_2_BD"].image,
+                    sprite_collection["witch_3_BD"].image, sprite_collection["witch_4_BD"].image,
+                    sprite_collection["witch_5_BD"].image, sprite_collection["witch_6_BD"].image,
+                    sprite_collection["witch_7_BD"].image, sprite_collection["witch_8_BD"].image,
+                    sprite_collection["witch_9_BD"].image, sprite_collection["witch_10_BD"].image,
+                    sprite_collection["witch_11_BD"].image, sprite_collection["witch_12_BD"].image]
+
+gWitchBattleDeadIdle_image_list = [sprite_collection["witch_12_BD"].image, sprite_collection["witch_12_BD"].image]
+
+gWitchBattleSkill_image_list = [sprite_collection["witch_1_BS"].image, sprite_collection["witch_1_BS"].image,
+                    sprite_collection["witch_3_BS"].image, sprite_collection["witch_4_BS"].image,
+                    sprite_collection["witch_5_BS"].image]
+
+gWitchBattleHurt_image_list = [sprite_collection["witch_1_BH"].image, sprite_collection["witch_1_BH"].image,
+                    sprite_collection["witch_3_BH"].image]
+
+gWitchBattleSkill2_image_list = [sprite_collection["witch_1_BS"].image, sprite_collection["witch_1_BS"].image,
+                    sprite_collection["witch_3_BS"].image, sprite_collection["witch_4_BS"].image,
+                    sprite_collection["witch_5_BS"].image,sprite_collection["witch_1_BA"].image, sprite_collection["witch_1_BA"].image,
+                    sprite_collection["witch_3_BA"].image, sprite_collection["witch_4_BA"].image,
+                    sprite_collection["witch_5_BA"].image, sprite_collection["witch_6_BA"].image,
+                    sprite_collection["witch_7_BA"].image, sprite_collection["witch_8_BA"].image,
+                    sprite_collection["witch_9_BA"].image]
+
+gWitchBattle_image_list = [gWitchBattleIdle_image_list, gWitchBattleAttack_image_list, gWitchBattleHurt_image_list,
+                            gWitchBattleDead_image_list, gWitchBattleDeadIdle_image_list, gWitchBattleSkill_image_list, gWitchBattleSkill2_image_list]
+
+
+#GroundMonk Queen of Club sprite
+gGroundMonkBattleIdle_image_list = [sprite_collection["groundmonk_1_BI"].image, sprite_collection["groundmonk_2_BI"].image,
+                    sprite_collection["groundmonk_3_BI"].image, sprite_collection["groundmonk_4_BI"].image,
+                    sprite_collection["groundmonk_5_BI"].image, sprite_collection["groundmonk_6_BI"].image]
+
+gGroundMonkBattleAttack_image_list = [sprite_collection["groundmonk_1_BA"].image, sprite_collection["groundmonk_2_BA"].image,
+                    sprite_collection["groundmonk_3_BA"].image, sprite_collection["groundmonk_4_BA"].image,
+                    sprite_collection["groundmonk_5_BA"].image, sprite_collection["groundmonk_6_BA"].image]
+
+gGroundMonkBattleDead_image_list = [sprite_collection["groundmonk_1_BD"].image, sprite_collection["groundmonk_2_BD"].image,
+                    sprite_collection["groundmonk_3_BD"].image, sprite_collection["groundmonk_4_BD"].image,
+                    sprite_collection["groundmonk_5_BD"].image, sprite_collection["groundmonk_6_BD"].image,
+                    sprite_collection["groundmonk_7_BD"].image, sprite_collection["groundmonk_8_BD"].image,
+                    sprite_collection["groundmonk_9_BD"].image, sprite_collection["groundmonk_10_BD"].image,
+                    sprite_collection["groundmonk_11_BD"].image, sprite_collection["groundmonk_12_BD"].image,
+                    sprite_collection["groundmonk_13_BD"].image, sprite_collection["groundmonk_14_BD"].image,
+                    sprite_collection["groundmonk_15_BD"].image, sprite_collection["groundmonk_16_BD"].image,
+                    sprite_collection["groundmonk_17_BD"].image, sprite_collection["groundmonk_18_BD"].image]
+
+gGroundMonkBattleDeadIdle_image_list = [sprite_collection["groundmonk_18_BD"].image, sprite_collection["groundmonk_18_BD"].image]
+
+gGroundMonkBattleSkill_image_list = [sprite_collection["groundmonk_1_BS"].image, sprite_collection["groundmonk_2_BS"].image,
+                    sprite_collection["groundmonk_3_BS"].image, sprite_collection["groundmonk_4_BS"].image,
+                    sprite_collection["groundmonk_5_BS"].image, sprite_collection["groundmonk_6_BS"].image,
+                    sprite_collection["groundmonk_7_BS"].image, sprite_collection["groundmonk_8_BS"].image,
+                    sprite_collection["groundmonk_9_BS"].image, sprite_collection["groundmonk_10_BS"].image,
+                    sprite_collection["groundmonk_11_BS"].image, sprite_collection["groundmonk_12_BS"].image,
+                    sprite_collection["groundmonk_13_BS"].image, sprite_collection["groundmonk_14_BS"].image,
+                    sprite_collection["groundmonk_15_BS"].image, sprite_collection["groundmonk_16_BS"].image,
+                    sprite_collection["groundmonk_17_BS"].image, sprite_collection["groundmonk_18_BS"].image,
+                    sprite_collection["groundmonk_19_BS"].image,sprite_collection["groundmonk_20_BS"].image,
+                    sprite_collection["groundmonk_21_BS"].image,sprite_collection["groundmonk_22_BS"].image,
+                    sprite_collection["groundmonk_23_BS"].image]
+
+gGroundMonkBattleHurt_image_list = [sprite_collection["groundmonk_1_BH"].image, sprite_collection["groundmonk_2_BH"].image,
+                    sprite_collection["groundmonk_3_BH"].image, sprite_collection["groundmonk_4_BH"].image,
+                    sprite_collection["groundmonk_5_BH"].image, sprite_collection["groundmonk_6_BH"].image]
+
+gGroundMonkBattleSkill2_image_list = [sprite_collection["groundmonk_1_BS"].image, sprite_collection["groundmonk_2_BS2"].image,
+                    sprite_collection["groundmonk_3_BS2"].image, sprite_collection["groundmonk_4_BS2"].image,
+                    sprite_collection["groundmonk_5_BS2"].image, sprite_collection["groundmonk_6_BS2"].image,
+                    sprite_collection["groundmonk_7_BS2"].image, sprite_collection["groundmonk_8_BS2"].image,
+                    sprite_collection["groundmonk_9_BS2"].image, sprite_collection["groundmonk_10_BS2"].image,
+                    sprite_collection["groundmonk_11_BS2"].image, sprite_collection["groundmonk_12_BS2"].image,
+                    sprite_collection["groundmonk_13_BS2"].image, sprite_collection["groundmonk_14_BS2"].image,
+                    sprite_collection["groundmonk_15_BS2"].image, sprite_collection["groundmonk_16_BS2"].image,
+                    sprite_collection["groundmonk_17_BS2"].image, sprite_collection["groundmonk_18_BS2"].image,
+                    sprite_collection["groundmonk_19_BS2"].image, sprite_collection["groundmonk_20_BS2"].image,
+                    sprite_collection["groundmonk_21_BS2"].image, sprite_collection["groundmonk_22_BS2"].image,
+                    sprite_collection["groundmonk_23_BS2"].image, sprite_collection["groundmonk_24_BS2"].image,
+                    sprite_collection["groundmonk_25_BS2"].image]
+
+gGroundMonkBattle_image_list = [gGroundMonkBattleIdle_image_list, gGroundMonkBattleAttack_image_list, gGroundMonkBattleHurt_image_list,
+                            gGroundMonkBattleDead_image_list, gGroundMonkBattleDeadIdle_image_list, gGroundMonkBattleSkill_image_list, 
+                            gGroundMonkBattleSkill2_image_list]
+
+#Bladekeeper Queen of Diamond sprite
+gBladekeeperBattleIdle_image_list = [sprite_collection["bladekeeper_1_BI"].image, sprite_collection["bladekeeper_2_BI"].image,
+                    sprite_collection["bladekeeper_3_BI"].image, sprite_collection["bladekeeper_4_BI"].image,
+                    sprite_collection["bladekeeper_5_BI"].image, sprite_collection["bladekeeper_6_BI"].image,
+                    sprite_collection["bladekeeper_7_BI"].image, sprite_collection["bladekeeper_8_BI"].image]
+
+gBladekeeperBattleAttack_image_list = [sprite_collection["bladekeeper_1_BA"].image, sprite_collection["bladekeeper_2_BA"].image,
+                    sprite_collection["bladekeeper_3_BA"].image, sprite_collection["bladekeeper_4_BA"].image,
+                    sprite_collection["bladekeeper_5_BA"].image, sprite_collection["bladekeeper_6_BA"].image,
+                    sprite_collection["bladekeeper_7_BA"].image, sprite_collection["bladekeeper_8_BA"].image]
+
+gBladekeeperBattleDead_image_list = [sprite_collection["bladekeeper_1_BD"].image, sprite_collection["bladekeeper_2_BD"].image,
+                    sprite_collection["bladekeeper_3_BD"].image, sprite_collection["bladekeeper_4_BD"].image,
+                    sprite_collection["bladekeeper_5_BD"].image, sprite_collection["bladekeeper_6_BD"].image,
+                    sprite_collection["bladekeeper_7_BD"].image, sprite_collection["bladekeeper_8_BD"].image,
+                    sprite_collection["bladekeeper_9_BD"].image, sprite_collection["bladekeeper_10_BD"].image,
+                    sprite_collection["bladekeeper_11_BD"].image, sprite_collection["bladekeeper_12_BD"].image]
+
+gBladekeeperBattleDeadIdle_image_list = [sprite_collection["bladekeeper_12_BD"].image, sprite_collection["bladekeeper_12_BD"].image]
+
+gBladekeeperBattleSkill_image_list = [sprite_collection["bladekeeper_1_BS"].image, sprite_collection["bladekeeper_2_BS"].image,
+                    sprite_collection["bladekeeper_3_BS"].image, sprite_collection["bladekeeper_4_BS"].image,
+                    sprite_collection["bladekeeper_5_BS"].image, sprite_collection["bladekeeper_6_BS"].image,
+                    sprite_collection["bladekeeper_7_BS"].image, sprite_collection["bladekeeper_8_BS"].image]
+
+gBladekeeperBattleSkill2_image_list = [sprite_collection["bladekeeper_1_BS2"].image, sprite_collection["bladekeeper_2_BS2"].image,
+                    sprite_collection["bladekeeper_3_BS2"].image, sprite_collection["bladekeeper_4_BS2"].image,
+                    sprite_collection["bladekeeper_5_BS2"].image, sprite_collection["bladekeeper_6_BS2"].image,
+                    sprite_collection["bladekeeper_7_BS2"].image, sprite_collection["bladekeeper_8_BS2"].image,
+                    sprite_collection["bladekeeper_9_BS2"].image, sprite_collection["bladekeeper_10_BS2"].image,
+                    sprite_collection["bladekeeper_11_BS2"].image]
+
+gBladekeeperBattleHurt_image_list = [sprite_collection["bladekeeper_1_BH"].image, sprite_collection["bladekeeper_3_BH"].image,
+                    sprite_collection["bladekeeper_3_BH"].image, sprite_collection["bladekeeper_4_BH"].image,
+                    sprite_collection["bladekeeper_5_BH"].image, sprite_collection["bladekeeper_6_BH"].image]
+
+gBladekeeperBattle_image_list = [gBladekeeperBattleIdle_image_list, gBladekeeperBattleAttack_image_list, gBladekeeperBattleHurt_image_list,
+                              gBladekeeperBattleDead_image_list, gBladekeeperBattleDeadIdle_image_list, gBladekeeperBattleSkill_image_list, 
+                              gBladekeeperBattleSkill2_image_list]
+
+#Spearwoman Queen of Heart sprite
+gSpearwomanBattleIdle_image_list = [sprite_collection["spearwoman_1_BI"].image, sprite_collection["spearwoman_2_BI"].image,
+                    sprite_collection["spearwoman_3_BI"].image, sprite_collection["spearwoman_4_BI"].image,
+                    sprite_collection["spearwoman_5_BI"].image, sprite_collection["spearwoman_6_BI"].image,
+                    sprite_collection["spearwoman_7_BI"].image, sprite_collection["spearwoman_8_BI"].image]
+
+gSpearwomanBattleAttack_image_list = [sprite_collection["spearwoman_1_BA"].image, sprite_collection["spearwoman_1_BA"].image,
+                    sprite_collection["spearwoman_1_BA"].image, sprite_collection["spearwoman_1_BA"].image,
+                    sprite_collection["spearwoman_1_BA"].image, sprite_collection["spearwoman_1_BA"].image]
+
+gSpearwomanBattleDead_image_list = [sprite_collection["spearwoman_1_BD"].image, sprite_collection["spearwoman_2_BD"].image,
+                    sprite_collection["spearwoman_3_BD"].image, sprite_collection["spearwoman_4_BD"].image,
+                    sprite_collection["spearwoman_5_BD"].image, sprite_collection["spearwoman_6_BD"].image,
+                    sprite_collection["spearwoman_7_BD"].image, sprite_collection["spearwoman_8_BD"].image,
+                    sprite_collection["spearwoman_9_BD"].image]
+
+gSpearwomanBattleDeadIdle_image_list = [sprite_collection["spearwoman_9_BD"].image, sprite_collection["spearwoman_9_BD"].image]
+
+gSpearwomanBattleSkill_image_list = [sprite_collection["spearwoman_1_BS"].image, sprite_collection["spearwoman_1_BS"].image,
+                    sprite_collection["spearwoman_3_BS"].image, sprite_collection["spearwoman_4_BS"].image,
+                    sprite_collection["spearwoman_5_BS"].image, sprite_collection["spearwoman_6_BS"].image,
+                    sprite_collection["spearwoman_7_BS"].image, sprite_collection["spearwoman_8_BS"].image,
+                    sprite_collection["spearwoman_9_BS"].image, sprite_collection["spearwoman_10_BS"].image,
+                    sprite_collection["spearwoman_11_BS"].image, sprite_collection["spearwoman_12_BS"].image,
+                    sprite_collection["spearwoman_13_BS"].image, sprite_collection["spearwoman_14_BS"].image]
+
+gSpearwomanBattleSkill2_image_list = [sprite_collection["spearwoman_1_BS2"].image, sprite_collection["spearwoman_2_BS2"].image,
+                    sprite_collection["spearwoman_3_BS2"].image, sprite_collection["spearwoman_4_BS2"].image,
+                    sprite_collection["spearwoman_5_BS2"].image, sprite_collection["spearwoman_6_BS2"].image,
+                    sprite_collection["spearwoman_7_BS2"].image, sprite_collection["spearwoman_8_BS2"].image,
+                    sprite_collection["spearwoman_9_BS2"].image, sprite_collection["spearwoman_10_BS2"].image,
+                    sprite_collection["spearwoman_11_BS2"].image, sprite_collection["spearwoman_12_BS2"].image,
+                    sprite_collection["spearwoman_13_BS2"].image, sprite_collection["spearwoman_14_BS2"].image,
+                    sprite_collection["spearwoman_15_BS2"].image, sprite_collection["spearwoman_16_BS2"].image,
+                    sprite_collection["spearwoman_17_BS2"].image, sprite_collection["spearwoman_18_BS2"].image,
+                    sprite_collection["spearwoman_19_BS2"].image, sprite_collection["spearwoman_20_BS2"].image,
+                    sprite_collection["spearwoman_21_BS2"].image, sprite_collection["spearwoman_22_BS2"].image]
+
+gSpearwomanBattleHurt_image_list = [sprite_collection["spearwoman_1_BH"].image, sprite_collection["spearwoman_2_BH"].image,
+                    sprite_collection["spearwoman_3_BH"].image, sprite_collection["spearwoman_4_BH"].image]
+
+gSpearwomanBattle_image_list = [gSpearwomanBattleIdle_image_list, gSpearwomanBattleAttack_image_list, gSpearwomanBattleHurt_image_list,
+                              gSpearwomanBattleDead_image_list, gSpearwomanBattleDeadIdle_image_list,
+                              gSpearwomanBattleSkill_image_list, gSpearwomanBattleSkill2_image_list]
+
+#Water Priestess Queen of Spade sprite
+gWaterPriestessBattleIdle_image_list = [sprite_collection["priestess_1_BI"].image, sprite_collection["priestess_2_BI"].image,
+                    sprite_collection["priestess_3_BI"].image, sprite_collection["priestess_4_BI"].image,
+                    sprite_collection["priestess_5_BI"].image, sprite_collection["priestess_6_BI"].image,
+                    sprite_collection["priestess_7_BI"].image, sprite_collection["priestess_8_BI"].image]
+
+gWaterPriestessBattleAttack_image_list = [sprite_collection["priestess_1_BA"].image, sprite_collection["priestess_2_BA"].image,
+                    sprite_collection["priestess_3_BA"].image, sprite_collection["priestess_4_BA"].image,
+                    sprite_collection["priestess_5_BA"].image, sprite_collection["priestess_6_BA"].image,
+                    sprite_collection["priestess_7_BA"].image, sprite_collection["priestess_8_BA"].image]
+
+gWaterPriestessBattleDead_image_list = [sprite_collection["priestess_1_BD"].image, sprite_collection["priestess_2_BD"].image,
+                    sprite_collection["priestess_3_BD"].image, sprite_collection["priestess_4_BD"].image,
+                    sprite_collection["priestess_5_BD"].image, sprite_collection["priestess_6_BD"].image,
+                    sprite_collection["priestess_7_BD"].image, sprite_collection["priestess_8_BD"].image,
+                    sprite_collection["priestess_9_BD"].image, sprite_collection["priestess_10_BD"].image,
+                    sprite_collection["priestess_11_BD"].image, sprite_collection["priestess_12_BD"].image,
+                    sprite_collection["priestess_13_BD"].image, sprite_collection["priestess_14_BD"].image,
+                    sprite_collection["priestess_15_BD"].image, sprite_collection["priestess_16_BD"].image]
+
+gWaterPriestessBattleDeadIdle_image_list = [sprite_collection["priestess_16_BD"].image, sprite_collection["priestess_16_BD"].image]
+
+gWaterPriestessBattleSkill_image_list = [sprite_collection["priestess_1_BS"].image, sprite_collection["priestess_2_BS"].image,
+                    sprite_collection["priestess_3_BS"].image, sprite_collection["priestess_4_BS"].image,
+                    sprite_collection["priestess_5_BS"].image, sprite_collection["priestess_6_BS"].image,
+                    sprite_collection["priestess_7_BS"].image, sprite_collection["priestess_8_BS"].image,
+                    sprite_collection["priestess_9_BS"].image, sprite_collection["priestess_10_BS"].image,
+                    sprite_collection["priestess_11_BS"].image, sprite_collection["priestess_12_BS"].image,
+                    sprite_collection["priestess_13_BS"].image, sprite_collection["priestess_14_BS"].image,
+                    sprite_collection["priestess_15_BS"].image, sprite_collection["priestess_16_BS"].image,
+                    sprite_collection["priestess_17_BS"].image, sprite_collection["priestess_18_BS"].image,
+                    sprite_collection["priestess_19_BS"].image, sprite_collection["priestess_20_BS"].image,
+                    sprite_collection["priestess_21_BS"].image, sprite_collection["priestess_22_BS"].image,
+                    sprite_collection["priestess_23_BS"].image, sprite_collection["priestess_24_BS"].image,
+                    sprite_collection["priestess_25_BS"].image, sprite_collection["priestess_26_BS"].image,
+                    sprite_collection["priestess_27_BS"].image]
+
+gWaterPriestessBattleSkill2_image_list = [sprite_collection["priestess_1_BS2"].image, sprite_collection["priestess_2_BS2"].image,
+                    sprite_collection["priestess_3_BS2"].image, sprite_collection["priestess_4_BS2"].image,
+                    sprite_collection["priestess_5_BS2"].image, sprite_collection["priestess_6_BS2"].image,
+                    sprite_collection["priestess_7_BS2"].image, sprite_collection["priestess_8_BS2"].image,
+                    sprite_collection["priestess_9_BS2"].image, sprite_collection["priestess_10_BS2"].image,
+                    sprite_collection["priestess_11_BS2"].image, sprite_collection["priestess_12_BS2"].image]
+
+gWaterPriestessBattleHurt_image_list = [sprite_collection["priestess_1_BH"].image, sprite_collection["priestess_2_BH"].image,
+                    sprite_collection["priestess_3_BH"].image, sprite_collection["priestess_4_BH"].image,
+                    sprite_collection["priestess_5_BH"].image, sprite_collection["priestess_6_BH"].image]
+
+gWaterPriestessBattle_image_list = [gWaterPriestessBattleIdle_image_list, gWaterPriestessBattleAttack_image_list, gWaterPriestessBattleHurt_image_list,
+                              gWaterPriestessBattleDead_image_list, gWaterPriestessBattleDeadIdle_image_list, gWaterPriestessBattleSkill_image_list, 
+                              gWaterPriestessBattleSkill2_image_list]
+
+#Ranger King of Club sprite
+gRangerBattleIdle_image_list = [sprite_collection["ranger_1_BI"].image, sprite_collection["ranger_2_BI"].image,
+                    sprite_collection["ranger_3_BI"].image, sprite_collection["ranger_4_BI"].image,
+                    sprite_collection["ranger_5_BI"].image, sprite_collection["ranger_6_BI"].image,
+                    sprite_collection["ranger_7_BI"].image, sprite_collection["ranger_8_BI"].image,
+                    sprite_collection["ranger_9_BI"].image, sprite_collection["ranger_10_BI"].image,
+                    sprite_collection["ranger_11_BI"].image, sprite_collection["ranger_12_BI"].image]
+
+gRangerBattleAttack_image_list = [sprite_collection["ranger_1_BA"].image, sprite_collection["ranger_2_BA"].image,
+                    sprite_collection["ranger_3_BA"].image, sprite_collection["ranger_4_BA"].image,
+                    sprite_collection["ranger_5_BA"].image, sprite_collection["ranger_6_BA"].image,
+                    sprite_collection["ranger_7_BA"].image, sprite_collection["ranger_8_BA"].image,
+                    sprite_collection["ranger_9_BA"].image, sprite_collection["ranger_10_BA"].image,
+                    sprite_collection["ranger_11_BA"].image, sprite_collection["ranger_12_BA"].image,
+                    sprite_collection["ranger_13_BA"].image, sprite_collection["ranger_14_BA"].image,
+                    sprite_collection["ranger_15_BA"].image]
+
+gRangerBattleDead_image_list = [sprite_collection["ranger_1_BD"].image, sprite_collection["ranger_2_BD"].image,
+                    sprite_collection["ranger_3_BD"].image, sprite_collection["ranger_4_BD"].image,
+                    sprite_collection["ranger_5_BD"].image, sprite_collection["ranger_6_BD"].image,
+                    sprite_collection["ranger_7_BD"].image, sprite_collection["ranger_8_BD"].image,
+                    sprite_collection["ranger_9_BD"].image, sprite_collection["ranger_10_BD"].image,
+                    sprite_collection["ranger_11_BD"].image, sprite_collection["ranger_12_BD"].image,
+                    sprite_collection["ranger_13_BD"].image, sprite_collection["ranger_14_BD"].image,
+                    sprite_collection["ranger_15_BD"].image, sprite_collection["ranger_16_BD"].image,
+                    sprite_collection["ranger_17_BD"].image, sprite_collection["ranger_18_BD"].image,
+                    sprite_collection["ranger_19_BD"].image]
+
+gRangerBattleDeadIdle_image_list = [sprite_collection["ranger_19_BD"].image, sprite_collection["ranger_19_BD"].image]
+
+gRangerBattleSkill_image_list = [sprite_collection["ranger_1_BS"].image, sprite_collection["ranger_2_BS"].image,
+                    sprite_collection["ranger_3_BS"].image, sprite_collection["ranger_4_BS"].image,
+                    sprite_collection["ranger_5_BS"].image, sprite_collection["ranger_6_BS"].image,
+                    sprite_collection["ranger_7_BS"].image, sprite_collection["ranger_8_BS"].image,
+                    sprite_collection["ranger_9_BS"].image, sprite_collection["ranger_10_BS"].image,
+                    sprite_collection["ranger_11_BS"].image, sprite_collection["ranger_12_BS"].image,
+                    sprite_collection["ranger_13_BS"].image, sprite_collection["ranger_14_BS"].image,
+                    sprite_collection["ranger_15_BS"].image, sprite_collection["ranger_16_BS"].image,
+                    sprite_collection["ranger_17_BS"].image]
+
+gRangerBattleHurt_image_list = [sprite_collection["ranger_1_BH"].image, sprite_collection["ranger_2_BH"].image,
+                    sprite_collection["ranger_3_BH"].image, sprite_collection["ranger_4_BH"].image,
+                    sprite_collection["ranger_5_BH"].image, sprite_collection["ranger_6_BH"].image]
+
+gRangerBattleSkill2_image_list = [sprite_collection["ranger_1_BS2"].image, sprite_collection["ranger_2_BS2"].image,
+                    sprite_collection["ranger_3_BS2"].image, sprite_collection["ranger_4_BS2"].image,
+                    sprite_collection["ranger_5_BS2"].image, sprite_collection["ranger_6_BS2"].image,
+                    sprite_collection["ranger_7_BS2"].image, sprite_collection["ranger_8_BS2"].image,
+                    sprite_collection["ranger_9_BS2"].image, sprite_collection["ranger_10_BS2"].image]
+
+gRangerBattle_image_list = [gRangerBattleIdle_image_list, gRangerBattleAttack_image_list, gRangerBattleHurt_image_list,
+                            gRangerBattleDead_image_list, gRangerBattleDeadIdle_image_list, gRangerBattleSkill_image_list, 
+                            gRangerBattleSkill2_image_list]
+
+#Hashashin King of Diamond sprite
+gHashashinBattleIdle_image_list = [sprite_collection["hashashin_1_BI"].image, sprite_collection["hashashin_2_BI"].image,
+                    sprite_collection["hashashin_3_BI"].image, sprite_collection["hashashin_4_BI"].image,
+                    sprite_collection["hashashin_5_BI"].image, sprite_collection["hashashin_6_BI"].image,
+                    sprite_collection["hashashin_7_BI"].image, sprite_collection["hashashin_8_BI"].image]
+
+gHashashinBattleAttack_image_list = [sprite_collection["hashashin_1_BA"].image, sprite_collection["hashashin_2_BA"].image,
+                    sprite_collection["hashashin_3_BA"].image, sprite_collection["hashashin_4_BA"].image,
+                    sprite_collection["hashashin_5_BA"].image, sprite_collection["hashashin_6_BA"].image,
+                    sprite_collection["hashashin_7_BA"].image, sprite_collection["hashashin_8_BA"].image]
+
+gHashashinBattleDead_image_list = [sprite_collection["hashashin_1_BD"].image, sprite_collection["hashashin_2_BD"].image,
+                    sprite_collection["hashashin_3_BD"].image, sprite_collection["hashashin_4_BD"].image,
+                    sprite_collection["hashashin_5_BD"].image, sprite_collection["hashashin_6_BD"].image,
+                    sprite_collection["hashashin_7_BD"].image, sprite_collection["hashashin_8_BD"].image,
+                    sprite_collection["hashashin_9_BD"].image, sprite_collection["hashashin_10_BD"].image,
+                    sprite_collection["hashashin_11_BD"].image, sprite_collection["hashashin_12_BD"].image,
+                    sprite_collection["hashashin_13_BD"].image, sprite_collection["hashashin_14_BD"].image,
+                    sprite_collection["hashashin_15_BD"].image, sprite_collection["hashashin_16_BD"].image,
+                    sprite_collection["hashashin_17_BD"].image, sprite_collection["hashashin_18_BD"].image,
+                    sprite_collection["hashashin_19_BD"].image]
+
+gHashashinBattleDeadIdle_image_list = [sprite_collection["hashashin_19_BD"].image, sprite_collection["hashashin_19_BD"].image]
+
+gHashashinBattleSkill_image_list = [sprite_collection["hashashin_1_BS"].image, sprite_collection["hashashin_2_BS"].image,
+                    sprite_collection["hashashin_3_BS"].image, sprite_collection["hashashin_4_BS"].image,
+                    sprite_collection["hashashin_5_BS"].image, sprite_collection["hashashin_6_BS"].image,
+                    sprite_collection["hashashin_7_BS"].image]
+
+gHashashinBattleSkill2_image_list = [sprite_collection["hashashin_1_BS2"].image, sprite_collection["hashashin_2_BS2"].image,
+                    sprite_collection["hashashin_3_BS2"].image, sprite_collection["hashashin_4_BS2"].image,
+                    sprite_collection["hashashin_5_BS2"].image, sprite_collection["hashashin_6_BS2"].image,
+                    sprite_collection["hashashin_7_BS2"].image, sprite_collection["hashashin_8_BS2"].image,
+                    sprite_collection["hashashin_9_BS2"].image, sprite_collection["hashashin_10_BS2"].image,
+                    sprite_collection["hashashin_11_BS2"].image, sprite_collection["hashashin_12_BS2"].image,
+                    sprite_collection["hashashin_13_BS2"].image, sprite_collection["hashashin_14_BS2"].image,
+                    sprite_collection["hashashin_15_BS2"].image, sprite_collection["hashashin_16_BS2"].image,
+                    sprite_collection["hashashin_17_BS2"].image, sprite_collection["hashashin_18_BS2"].image,
+                    sprite_collection["hashashin_19_BS2"].image, sprite_collection["hashashin_20_BS2"].image,
+                    sprite_collection["hashashin_21_BS2"].image, sprite_collection["hashashin_22_BS2"].image,
+                    sprite_collection["hashashin_23_BS2"].image, sprite_collection["hashashin_24_BS2"].image,
+                    sprite_collection["hashashin_25_BS2"].image, sprite_collection["hashashin_26_BS2"].image]
+
+gHashashinBattleHurt_image_list = [sprite_collection["hashashin_1_BH"].image, sprite_collection["hashashin_2_BH"].image,
+                    sprite_collection["hashashin_3_BH"].image, sprite_collection["hashashin_4_BH"].image,
+                    sprite_collection["hashashin_5_BH"].image, sprite_collection["hashashin_6_BH"].image]
+
+gHashashinBattle_image_list = [gHashashinBattleIdle_image_list, gHashashinBattleAttack_image_list, gHashashinBattleHurt_image_list,
+                            gHashashinBattleDead_image_list, gHashashinBattleDeadIdle_image_list, gHashashinBattleSkill_image_list,
+                            gHashashinBattleSkill2_image_list]
+
+#FireKnight King of Heart sprite
+gFireKnightBattleIdle_image_list = [sprite_collection["fireknight_1_BI"].image, sprite_collection["fireknight_2_BI"].image,
+                    sprite_collection["fireknight_3_BI"].image, sprite_collection["fireknight_4_BI"].image,
+                    sprite_collection["fireknight_5_BI"].image, sprite_collection["fireknight_6_BI"].image,
+                    sprite_collection["fireknight_7_BI"].image, sprite_collection["fireknight_8_BI"].image]
+
+gFireKnightBattleAttack_image_list = [sprite_collection["fireknight_1_BA"].image, sprite_collection["fireknight_2_BA"].image,
+                    sprite_collection["fireknight_3_BA"].image, sprite_collection["fireknight_4_BA"].image,
+                    sprite_collection["fireknight_5_BA"].image, sprite_collection["fireknight_6_BA"].image,
+                    sprite_collection["fireknight_7_BA"].image, sprite_collection["fireknight_8_BA"].image,
+                    sprite_collection["fireknight_9_BA"].image, sprite_collection["fireknight_10_BA"].image,
+                    sprite_collection["fireknight_11_BA"].image]
+
+gFireKnightBattleDead_image_list = [sprite_collection["fireknight_1_BD"].image, sprite_collection["fireknight_2_BD"].image,
+                    sprite_collection["fireknight_3_BD"].image, sprite_collection["fireknight_4_BD"].image,
+                    sprite_collection["fireknight_5_BD"].image, sprite_collection["fireknight_6_BD"].image,
+                    sprite_collection["fireknight_7_BD"].image, sprite_collection["fireknight_8_BD"].image,
+                    sprite_collection["fireknight_9_BD"].image, sprite_collection["fireknight_10_BD"].image,
+                    sprite_collection["fireknight_11_BD"].image, sprite_collection["fireknight_12_BD"].image,
+                    sprite_collection["fireknight_13_BD"].image]
+
+gFireKnightBattleDeadIdle_image_list = [sprite_collection["fireknight_13_BD"].image, sprite_collection["fireknight_13_BD"].image]
+
+gFireKnightBattleSkill_image_list = [sprite_collection["fireknight_1_BS"].image, sprite_collection["fireknight_2_BS"].image,
+                    sprite_collection["fireknight_3_BS"].image, sprite_collection["fireknight_4_BS"].image,
+                    sprite_collection["fireknight_5_BS"].image, sprite_collection["fireknight_6_BS"].image,
+                    sprite_collection["fireknight_7_BS"].image, sprite_collection["fireknight_8_BS"].image,
+                    sprite_collection["fireknight_9_BS"].image, sprite_collection["fireknight_10_BS"].image,
+                    sprite_collection["fireknight_11_BS"].image, sprite_collection["fireknight_12_BS"].image,
+                    sprite_collection["fireknight_13_BS"].image, sprite_collection["fireknight_14_BS"].image,
+                    sprite_collection["fireknight_15_BS"].image, sprite_collection["fireknight_16_BS"].image,
+                    sprite_collection["fireknight_17_BS"].image, sprite_collection["fireknight_18_BS"].image,
+                    sprite_collection["fireknight_19_BS"].image,sprite_collection["fireknight_20_BS"].image,
+                    sprite_collection["fireknight_21_BS"].image,sprite_collection["fireknight_22_BS"].image,
+                    sprite_collection["fireknight_23_BS"].image,sprite_collection["fireknight_24_BS"].image,
+                    sprite_collection["fireknight_25_BS"].image,sprite_collection["fireknight_26_BS"].image,
+                    sprite_collection["fireknight_27_BS"].image,sprite_collection["fireknight_28_BS"].image]
+
+gFireKnightBattleSkill2_image_list = [sprite_collection["fireknight_1_BS2"].image, sprite_collection["fireknight_2_BS2"].image,
+                    sprite_collection["fireknight_3_BS2"].image, sprite_collection["fireknight_4_BS2"].image,
+                    sprite_collection["fireknight_5_BS2"].image, sprite_collection["fireknight_6_BS2"].image,
+                    sprite_collection["fireknight_7_BS2"].image, sprite_collection["fireknight_8_BS2"].image,
+                    sprite_collection["fireknight_9_BS2"].image, sprite_collection["fireknight_10_BS2"].image,
+                    sprite_collection["fireknight_11_BS2"].image, sprite_collection["fireknight_12_BS2"].image,
+                    sprite_collection["fireknight_13_BS2"].image, sprite_collection["fireknight_14_BS2"].image,
+                    sprite_collection["fireknight_15_BS2"].image, sprite_collection["fireknight_16_BS2"].image,
+                    sprite_collection["fireknight_17_BS2"].image, sprite_collection["fireknight_18_BS2"].image]
+
+gFireKnightBattleHurt_image_list = [sprite_collection["fireknight_1_BH"].image, sprite_collection["fireknight_2_BH"].image,
+                    sprite_collection["fireknight_3_BH"].image, sprite_collection["fireknight_4_BH"].image,
+                    sprite_collection["fireknight_5_BH"].image, sprite_collection["fireknight_6_BH"].image]
+
+gFireKnightBattle_image_list = [gFireKnightBattleIdle_image_list, gFireKnightBattleAttack_image_list, gFireKnightBattleHurt_image_list,
+                              gFireKnightBattleDead_image_list, gFireKnightBattleDeadIdle_image_list, 
+                              gFireKnightBattleSkill_image_list, gFireKnightBattleSkill2_image_list]
+
+#Skeleton sprite
+gSkeletonBattleIdle_image_list = [sprite_collection["skeleton_1_BI"].image, sprite_collection["skeleton_2_BI"].image,
+                    sprite_collection["skeleton_3_BI"].image, sprite_collection["skeleton_4_BI"].image]
+
+gSkeletonBattleAttack_image_list = [sprite_collection["skeleton_1_BA"].image, sprite_collection["skeleton_2_BA"].image,
+                    sprite_collection["skeleton_3_BA"].image, sprite_collection["skeleton_4_BA"].image,
+                    sprite_collection["skeleton_5_BA"].image, sprite_collection["skeleton_6_BA"].image,
+                    sprite_collection["skeleton_7_BA"].image, sprite_collection["skeleton_8_BA"].image]
+
+gSkeletonBattleHurt_image_list = [sprite_collection["skeleton_1_BH"].image, sprite_collection["skeleton_2_BH"].image,
+                    sprite_collection["skeleton_3_BH"].image, sprite_collection["skeleton_4_BH"].image]
+
+gSkeletonBattleDead_image_list = [sprite_collection["skeleton_1_BD"].image, sprite_collection["skeleton_2_BD"].image,
+                    sprite_collection["skeleton_3_BD"].image, sprite_collection["skeleton_4_BD"].image,
+                    sprite_collection["skeleton_4_BD"].image,]
+
+gSkeletonBattleDeadIdle_image_list = [sprite_collection["skeleton_4_BD"].image, sprite_collection["skeleton_4_BD"].image]
+
+gSkeletonBattleSkill_image_list = [sprite_collection["skeleton_1_BS"].image, sprite_collection["skeleton_2_BS"].image,
+                    sprite_collection["skeleton_3_BS"].image, sprite_collection["skeleton_4_BS"].image]
+
+gSkeletonBattle_image_list = [gSkeletonBattleIdle_image_list, gSkeletonBattleAttack_image_list, gSkeletonBattleHurt_image_list,
+                              gSkeletonBattleDead_image_list, gSkeletonBattleDeadIdle_image_list, gSkeletonBattleSkill_image_list]
+
+
 
 #items list
 #pistol
@@ -461,7 +955,12 @@ gSounds = {
     'door-creaking': pygame.mixer.Sound('sounds/door-creaking.wav'),
     'mystery_unfold': pygame.mixer.Sound('sounds/mystery_unfold.wav'),
     'epic-orchestra': pygame.mixer.Sound('sounds/epic-orchestra.wav'),
-    'sad-violin': pygame.mixer.Sound('sounds/sad-violin.wav')
+    'sad-violin': pygame.mixer.Sound('sounds/sad-violin.wav'),
+    'battle1': pygame.mixer.Sound('sounds/battle_music/chasing-victory.mp3'),
+    'battle2': pygame.mixer.Sound('sounds/battle_music/epic-motivational.mp3'),
+    'battle3': pygame.mixer.Sound('sounds/battle_music/medieval-fantasy.mp3'),
+    'battle4': pygame.mixer.Sound('sounds/battle_music/war-is-coming.mp3'),
+    'battle5': pygame.mixer.Sound('sounds/battle_music/where-the-brave-may-live-forever-viking.mp3')
 }
 
 gFonts = {
@@ -485,3 +984,5 @@ from src.states.game.BattleState import BattleState
 from src.states.game.HealingState import HealingState
 from src.states.game.LootingState import LootingState
 from src.states.game.MeetingState import MeetingState
+from src.states.game.EndingCutState import EndingCutState
+from src.states.game.GameEndingState import GameEndingState

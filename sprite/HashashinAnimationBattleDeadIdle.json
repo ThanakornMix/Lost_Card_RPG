@@ -1,0 +1,22 @@
+{
+    "spriteSheetURL": "./graphics/elementals_wind_hashashin_FREE/wind_SpriteSheet.png",
+    "type":"none",
+    "size":[288,128],
+    "sprites":[
+
+        {
+            "name":"hashashin_19_BD",
+            "x":5184,
+            "y":1536,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"hashashin_19_BD",
+            "x":5184,
+            "y":1536,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+    ]
+}

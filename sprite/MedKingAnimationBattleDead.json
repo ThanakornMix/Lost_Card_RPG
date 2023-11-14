@@ -8,42 +8,42 @@
             "name":"medking_1_BD",
             "x":800,
             "y":0,
-            "scalefactor":2,
+            "scalefactor":3,
             "colorKey":-1
         },
         {
             "name":"medking_2_BD",
             "x":640,
             "y":0,
-            "scalefactor":2,
+            "scalefactor":3,
             "colorKey":-1
         },
         {
             "name":"medking_3_BD",
             "x":480,
             "y":0,
-            "scalefactor":2,
+            "scalefactor":3,
             "colorKey":-1
         },
 		{
             "name":"medking_4_BD",
             "x":320,
             "y":0,
-            "scalefactor":2,
+            "scalefactor":3,
             "colorKey":-1
         },
         {
             "name":"medking_5_BD",
             "x":160,
             "y":0,
-            "scalefactor":2,
+            "scalefactor":3,
             "colorKey":-1
         },
         {
             "name":"medking_6_BD",
             "x":0,
             "y":0,
-            "scalefactor":2,
+            "scalefactor":3,
             "colorKey":-1
         }   
     ]

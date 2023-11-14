@@ -119,6 +119,10 @@ class MeetingState(BaseState):
 
         pass
 
+    def reset(self):
+        self.current_meeting = 0
+        self.demonhunter_favor = 0
+
     def update(self, dt, events):
         for event in events:
             if event.type == pygame.QUIT:
@@ -166,7 +170,7 @@ class MeetingState(BaseState):
                     if self.current_meeting == 0:
                         gSounds['epic-orchestra'].stop()
                     else:
-                        gSounds['sad-violin'].play(-1)
+                        gSounds['sad-violin'].stop()
 
                     # demon hunter blessing
                     if self.demonhunter.selected_choice == 0:

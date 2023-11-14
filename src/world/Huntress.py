@@ -7,7 +7,7 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 
 class Huntress(Character):
     def __init__(self, x = WIDTH / 2 - 96 + 400, y = HEIGHT - HEIGHT / 3 + 60):
-        super().__init__(name = gHuntressBattle_image_list, max_hp = 60, strength = 4)
+        super().__init__(name = gHuntressBattle_image_list, max_hp = 80, strength = 7)
         self.x = x
         self.y = y
         self.rect.center = (x, y)
@@ -24,7 +24,6 @@ class Huntress(Character):
 
     def hurt(self, damage):
         super().hurt(damage)
-        self.hp -= damage
 
     def reset(self):
         self.alive = True

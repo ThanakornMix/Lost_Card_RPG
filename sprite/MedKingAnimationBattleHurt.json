@@ -8,28 +8,28 @@
             "name":"medking_1_BH",
             "x":480,
             "y":0,
-            "scalefactor":2,
+            "scalefactor":3,
             "colorKey":-1
         },
         {
             "name":"medking_2_BH",
             "x":320,
             "y":0,
-            "scalefactor":2,
+            "scalefactor":3,
             "colorKey":-1
         },
         {
             "name":"medking_3_BH",
             "x":160,
             "y":0,
-            "scalefactor":2,
+            "scalefactor":3,
             "colorKey":-1
         },
 		{
             "name":"medking_4_BH",
             "x":0,
             "y":0,
-            "scalefactor":2,
+            "scalefactor":3,
             "colorKey":-1
         }   
     ]

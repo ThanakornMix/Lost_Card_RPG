@@ -1,0 +1,22 @@
+{
+    "spriteSheetURL": "./graphics/Elementals_Leaf_ranger/Elementals_leaf_ranger_SpriteSheet.png",
+    "type":"none",
+    "size":[288,128],
+    "sprites":[
+
+        {
+            "name":"ranger_19_BD",
+            "x":4608,
+            "y":2048,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"ranger_19_BD",
+            "x":4608,
+            "y":2048,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+    ]
+}

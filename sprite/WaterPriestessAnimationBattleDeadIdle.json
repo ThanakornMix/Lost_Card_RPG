@@ -1,0 +1,22 @@
+{
+    "spriteSheetURL": "./graphics/Elementals_water_priestess_FREE/water_FREE_SpriteSheet.png",
+    "type":"none",
+    "size":[288,128],
+    "sprites":[
+
+        {
+            "name":"priestess_16_BD",
+            "x":4320,
+            "y":1792,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"priestess_16_BD",
+            "x":4320,
+            "y":1792,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+    ]
+}

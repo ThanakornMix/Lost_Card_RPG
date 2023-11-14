@@ -1,0 +1,37 @@
+{
+    "spriteSheetURL": "./graphics/Medieval King/Sprites/Skill2.png",
+    "type":"none",
+    "size":[160,111],
+    "sprites":[
+        
+        {
+            "name":"medking_1_BS2",
+            "x":480,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"medking_2_BS2",
+            "x":320,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"medking_3_BS2",
+            "x":160,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"medking_4_BS2",
+            "x":0,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+            
+    ]
+}

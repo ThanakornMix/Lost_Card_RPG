@@ -1,0 +1,35 @@
+{
+    "spriteSheetURL": "./graphics/Monsters_Creatures_Fantasy/Goblin/Idle.png",
+    "type":"none",
+    "size":[150,150],
+    "sprites":[
+        {
+            "name":"Goblin_1_BI",
+            "x":0,
+            "y":0,
+            "scalefactor":2,
+            "colorKey":-1
+	   },
+        {
+            "name":"Goblin_2_BI",
+            "x":151,
+            "y":0,
+            "scalefactor":2,
+            "colorKey":-1
+        },
+        {
+            "name":"Goblin_3_BI",
+            "x":302,
+            "y":0,
+            "scalefactor":2,
+            "colorKey":-1
+        },
+        {
+            "name":"Goblin_4_BI",
+            "x":453,
+            "y":0,
+            "scalefactor":2,
+            "colorKey":-1
+        }
+    ]
+}

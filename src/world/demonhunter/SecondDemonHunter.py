@@ -5,7 +5,7 @@ from src.Dependencies import gDhunter_image_list
 
 class SecondDemonHunter(BaseDemonHunter):
     def __init__(self, x, y, player):
-        super().__init__(gDhunter_image_list, "This place is where me and my wife once share our loves",
+        super().__init__(gDhunter_image_list, "This place is where I and my wife once share our loves",
                          "By the way, are you aware of the power of cards you behold (press DOWN to confirm)",
                          "Yes, I am aware",
                          "No, I am not aware",

@@ -1,0 +1,22 @@
+{
+    "spriteSheetURL": "./graphics/Blue_witch/B_witch_death_enemies -2.png",
+    "type":"none",
+    "size":[32,34],
+    "sprites":[
+        
+        {
+            "name":"witch_12_BD",
+            "x":0,
+            "y":204,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"witch_12_BD",
+            "x":0,
+            "y":204,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "spriteSheetURL": "./graphics/Hero Knight/Death.png",
+    "type":"none",
+    "size":[180,180],
+    "sprites":[
+
+        {
+            "name":"heroknight_11_BD",
+            "x":1440,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"heroknight_11_BD",
+            "x":1440,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "spriteSheetURL": "./graphics/Elementals_ground_monk_FREE_v1.3/ground_monk_FREESpriteSheet_288x128.png",
+    "type":"none",
+    "size":[288,128],
+    "sprites":[
+
+        {
+            "name":"groundmonk_1_BI",
+            "x":0,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"groundmonk_2_BI",
+            "x":288,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"groundmonk_3_BI",
+            "x":576,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"groundmonk_4_BI",
+            "x":864,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"groundmonk_5_BI",
+            "x":1152,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"groundmonk_6_BI",
+            "x":1440,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+    ]
+}

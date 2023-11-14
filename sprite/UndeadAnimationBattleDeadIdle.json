@@ -1,0 +1,23 @@
+{
+    "spriteSheetURL": "./graphics/Undead executioner puppet/death.png",
+    "type":"none",
+    "size":[100,100],
+    "sprites":[
+
+        {
+            "name":"undead_18_BD",
+            "x":800,
+            "y":100,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"undead_19_BD",
+            "x":800,
+            "y":100,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+
+    ]
+}

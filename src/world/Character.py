@@ -15,6 +15,7 @@ class Character():
         self.hp = max_hp
         self.strength = strength
         self.step_count = 0
+        self.current_map = 0
         self.alive = True
         self.animation_list = []
         self.frame_index = 0
@@ -25,12 +26,12 @@ class Character():
         self.rect = self.image.get_rect()
         self.font = pygame.font.SysFont('Times New Roman', 26)
         self.damage_text_group = Group()
-        #change
         self.reset_pos = False
-        self.reset_pos = False
-        self.prev_strength = strength
         self.evade = False
         self.block = False
+        self.turn_count = 0
+        self.display_dmg = 0
+        self.double_damage = False
 
     def add_animation_list(self, name):
         for animation in name:
@@ -59,33 +60,36 @@ class Character():
 
     def attack(self, target):
         # deal damage to enemy
-        self.rand = random.randint(1, 5)
-        self.damage = self.strength + self.rand
+        damage = self.strength
         # run enemy hurt animation
-        target.hurt(self.damage)
+        target.hurt(damage)
         #set variables to attack animation
         if target.hp < 1:
             target.hp = 0
             target.alive = False
             target.death()
-        self.damage_text = DamageText(target.rect.centerx, target.rect.y, str(self.damage), (255, 255, 255))
+        self.damage_text = DamageText(target.rect.centerx, target.rect.y, str(damage), (255, 0, 0))
         self.damage_text_group.add(self.damage_text)
         self.action = 1
         self.frame_index = 0
         self.update_time = pygame.time.get_ticks()
     #change
-    def skill(self):
-        self.action = 5
-        self.frame_index = 0
-        self.update_time = pygame.time.get_ticks()
 
     def hurt(self, damage):
-        self.hp -= damage
-        damage_text = DamageText(self.rect.centerx, self.rect.y, str(damage), (255, 255, 255))
-        self.damage_text_group.add(damage_text)
-        self.action = 2
-        self.frame_index = 0
-        self.update_time = pygame.time.get_ticks()
+        if self.alive == True:
+            if self.evade == True:
+                damage = 0
+            if self.block == True:
+                damage = int(0.5*damage)
+            self.hp -= damage
+            # set variables to hurt animation
+            self.action = 2
+            self.frame_index = 0
+            self.block = False
+            self.evade = False
+            self.update_time = pygame.time.get_ticks()
+        else:
+            self.action = 3
 
     def death(self):
         self.action = 3
@@ -94,6 +98,7 @@ class Character():
 
     def reset(self):
         self.alive = True
+        self.hp = self.max_hp
         self.frame_index = 0
         self.action = 0
         self.update_time = pygame.time.get_ticks()

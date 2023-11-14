@@ -1,0 +1,42 @@
+{
+    "spriteSheetURL": "./graphics/Blue_witch/B_witch_death_enemies -1.png",
+    "type":"none",
+    "size":[32,48],
+    "sprites":[
+        {
+            "name":"witch_1_BD",
+            "x":0,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+	   },
+        {
+            "name":"witch_2_BD",
+            "x":0,
+            "y":48,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"witch_3_BD",
+            "x":0,
+            "y":96,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"witch_4_BD",
+            "x":0,
+            "y":144,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"witch_5_BD",
+            "x":0,
+            "y":192,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+    ]
+}

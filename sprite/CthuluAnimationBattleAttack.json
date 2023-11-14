@@ -1,0 +1,57 @@
+{
+    "spriteSheetURL": "./graphics/cthulu/cthulu_192x112_SpriteSheet.png",
+    "type":"none",
+    "size":[192,112],
+    "sprites":[
+
+        {
+            "name":"cthulu_1_BA",
+            "x":0,
+            "y":336,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"cthulu_2_BA",
+            "x":192,
+            "y":336,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"cthulu_3_BA",
+            "x":384,
+            "y":336,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"cthulu_4_BA",
+            "x":576,
+            "y":336,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"cthulu_5_BA",
+            "x":768,
+            "y":336,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"cthulu_6_BA",
+            "x":960,
+            "y":336,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"cthulu_7_BA",
+            "x":1152,
+            "y":336,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+    ]
+}

@@ -46,8 +46,11 @@ class RollDiceState(BaseState):
         self.loading_bg_img = pygame.transform.scale(self.loading_bg_img, (WIDTH + 5, HEIGHT + 5))
 
     def Enter(self, params):
+        self.dice_rand = random.randint(70,80)
         #make change
         self.player = params['chosen']
+        #don't roll while load
+        self.can_roll = False
         #sounds
         gSounds['late-hours'].play(-1)
         gSounds['campfire_fireplace'].play(-1)
@@ -63,17 +66,12 @@ class RollDiceState(BaseState):
                 sys.exit()
             if event.type == pygame.KEYDOWN:
                 #press to down stop dice
-                if event.key == pygame.K_DOWN and not self.dice_stop:
+                if event.key == pygame.K_DOWN and not self.dice_stop and self.can_roll:
                     
                     self.confirm_sound.play()
                     self.dice_stop = True
                     self.render(screen)
-                    print("DiceCurrentFace is")
                     RollDiceState.diceCurrentFace = self.current_sprite_dice+1
-                    print(RollDiceState.diceCurrentFace)
-                    print("dice stop == true")
-                    print("current dice")
-                    print(self.current_sprite_dice)
                 if event.key == pygame.K_ESCAPE:
                     pygame.quit()
                     sys.exit()
@@ -148,7 +146,6 @@ class RollDiceState(BaseState):
         if self.dice_stop:
             dice_img = pygame.transform.scale(self.diceList[self.diceCurrentFace], (100, 100))
             screen.blit(dice_img, (WIDTH / 2 - 100, HEIGHT - HEIGHT / 2 - 60))
-            print(self.diceCurrentFace)
             
         else:
             # text above witch
@@ -163,7 +160,6 @@ class RollDiceState(BaseState):
                 self.current_sprite_dice += 1  # Update frame index
                 if self.current_sprite_dice >= len(self.diceList):
                     self.current_sprite_dice = 0  # Reset frame index when it reaches the end
-                    print(self.current_sprite_dice)
             dice_img = pygame.transform.scale(self.diceList[self.current_sprite_dice], (100, 100))
             self.frame_index_dice += 1
         # Display the current frame of the character image
@@ -172,10 +168,9 @@ class RollDiceState(BaseState):
         #self.frame_index_dice += 1
 
         #loading
-        if self.loading > 70:
+        if self.loading >  self.dice_rand:
             self.player.reset_pos = False
-        elif self.loading > 70 and self.player.reset_pos == False:
-            pass
+            self.can_roll = True
         else:
             font  = pygame.font.Font('./fonts/font.ttf', 28)
             text = font.render('Loading...', True, (255, 255, 255))

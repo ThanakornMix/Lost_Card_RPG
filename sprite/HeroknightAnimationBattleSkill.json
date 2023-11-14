@@ -1,0 +1,57 @@
+{
+    "spriteSheetURL": "./graphics/Hero Knight/Attack2.png",
+    "type":"none",
+    "size":[180,180],
+    "sprites":[
+
+        {
+            "name":"heroknight_1_BS",
+            "x":0,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"heroknight_2_BS",
+            "x":180,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"heroknight_3_BS",
+            "x":360,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"heroknight_4_BS",
+            "x":540,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"heroknight_5_BS",
+            "x":720,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"heroknight_6_BS",
+            "x":900,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"heroknight_7_BS",
+            "x":1080,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+    ]
+}

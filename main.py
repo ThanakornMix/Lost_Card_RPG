@@ -25,7 +25,9 @@ class GameMain:
             'battle': BattleState(self.g_state_manager),
             'healing': HealingState(self.g_state_manager),
             'looting': LootingState(self.g_state_manager),
-            'meeting': MeetingState(self.g_state_manager)
+            'meeting': MeetingState(self.g_state_manager),
+            'Ending': GameEndingState(self.g_state_manager),
+            'EndingCut': EndingCutState(self.g_state_manager)
         }
 
         self.g_state_manager.SetStates(states)

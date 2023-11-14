@@ -1,0 +1,22 @@
+{
+    "spriteSheetURL": "./graphics/Elementals_fire_knight/fire_FREE_SpriteSheet.png",
+    "type":"none",
+    "size":[288,128],
+    "sprites":[
+
+        {
+            "name":"fireknight_1_BD",
+            "x":3456,
+            "y":1664,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"fireknight_2_BD",
+            "x":3456,
+            "y":1664,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+    ]
+}

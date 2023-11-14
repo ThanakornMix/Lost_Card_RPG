@@ -1,0 +1,65 @@
+{
+    "spriteSheetURL": "./graphics/Undead executioner puppet/idle2.png",
+    "type":"none",
+    "size":[100,100],
+    "sprites":[
+
+        {
+            "name":"undead_1_BI",
+            "x":0,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"undead_2_BI",
+            "x":100,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"undead_3_BI",
+            "x":200,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"undead_4_BI",
+            "x":300,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"undead_5_BI",
+            "x":0,
+            "y":100,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"undead_6_BI",
+            "x":100,
+            "y":100,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"undead_7_BI",
+            "x":200,
+            "y":100,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"undead_8_BI",
+            "x":300,
+            "y":100,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+
+    ]
+}

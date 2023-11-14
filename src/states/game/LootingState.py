@@ -54,7 +54,7 @@ class LootingState(BaseState):
         self.item_X = WIDTH / 2
         self.item_Y = HEIGHT - HEIGHT / 3
         #item_list
-        self.item_container = [0,1,3,4,5,6,7,8,9,10,11]
+        self.item_container = [0,1,2,3,4,5,6,7,8,9,10,11]
         #current_item
         self.current_item = 0
 
@@ -121,6 +121,10 @@ class LootingState(BaseState):
             self.background_trove, (WIDTH + 5, HEIGHT + 5))
 
         pass
+
+    def reset(self):
+        self.item_container = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+        self.current_item = 0
 
     def update(self, dt, events):
         for event in events:

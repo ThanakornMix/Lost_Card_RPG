@@ -1,0 +1,22 @@
+{
+    "spriteSheetURL": "./graphics/Spearwoman/Spearwoman(lightning spear)-Sheet.png",
+    "type":"none",
+    "size":[128,115],
+    "sprites":[
+
+		{
+            "name":"spearwoman_9_BD",
+            "x":1024,
+            "y":2760,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"spearwoman_9_BD",
+            "x":1024,
+            "y":2760,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+    ]
+}

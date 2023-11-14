@@ -8,11 +8,11 @@ import math
 
 class Warrior(Character):
     def __init__(self, x, y):
-        super().__init__(gWarriorBattle_image_list, max_hp = 100, strength = 10)
+        super().__init__(gWarriorBattle_image_list, max_hp = 120, strength = 10)
         self.X = x
-        self.Y = y+15
+        self.Y = y+20
         self.Class = "Warrior"
-        self.action_list = ["W (Attack)", "Q (Skill 1)", "E (Skill 2)"]
+        self.action_list = ["Q (Attack)", "W (Flash)", "E (Raijin)"]
         self.evade = False
         self.rect.center = (self.X, self.Y)
         self.action_count = 3
@@ -37,16 +37,15 @@ class Warrior(Character):
     def skill_1(self, target):
         self.rect.center = (self.X, self.Y)
         # deal damage to enemy
-        damage = math.ceil(self.strength)
+        damage = int(math.ceil(self.strength)+0.1*self.max_hp)
         for enemy in target:
-            # run enemy hurt animation
-            enemy.hurt(damage)
             #set variables to attack animation
-            if enemy.hp < 1:
+            enemy.hurt(damage)
+            if enemy.hp < 1 and enemy.alive is True:
                 enemy.hp = 0
                 enemy.alive = False
                 enemy.death()
-            self.damage_text = DamageText(enemy.rect.centerx, enemy.rect.y, str(damage), (255, 255, 255))
+            self.damage_text = DamageText(enemy.rect.centerx, enemy.rect.y, str(damage), (255, 0, 0))
             self.damage_text_group.add(self.damage_text)
         self.action = 5
         self.frame_index = 0
@@ -61,18 +60,18 @@ class Warrior(Character):
         if self.skill_cooldown_2 == 0:
             self.rect.center = (self.X, self.Y)
             # deal damage to enemy
-            self.damage = math.ceil(self.strength * 1.2)
+            damage = int(math.ceil(self.strength + (0.2*self.strength)))
             # run enemy hurt animation
-            target.hurt(self.damage)
+            target.hurt(damage)
             #set variables to attack animation
             if target.hp < 1:
                 target.hp = 0
                 target.alive = False
                 target.death()
-            self.damage_text = DamageText(target.rect.centerx, target.rect.y, str(self.damage), (255, 255, 255))
+            self.damage_text = DamageText(target.rect.centerx, target.rect.y, str(damage), (255, 0, 0))
             self.damage_text_group.add(self.damage_text)
             self.action = 6
-            heal_point = self.hp + 0.1*self.max_hp
+            heal_point = int(math.ceil(self.hp + 10 + 0.1*self.max_hp))
             if heal_point > self.max_hp:
                 self.hp = self.max_hp
             else:
@@ -83,7 +82,10 @@ class Warrior(Character):
     
 
     def hurt(self, damage):
+        self.rect.center = (self.X, self.Y)
         super().hurt(damage)
+        damage_text = DamageText(self.rect.centerx, self.rect.y, str(damage), (255, 255,255))
+        self.damage_text_group.add(damage_text)
 
     
     def death(self):

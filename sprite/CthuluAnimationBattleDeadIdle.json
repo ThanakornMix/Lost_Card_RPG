@@ -1,0 +1,22 @@
+{
+    "spriteSheetURL": "./graphics/cthulu/cthulu_192x112_SpriteSheet.png",
+    "type":"none",
+    "size":[192,112],
+    "sprites":[
+
+        {
+            "name":"cthulu_11_BD",
+            "x":1920,
+            "y":672,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"cthulu_11_BD",
+            "x":1920,
+            "y":672,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+    ]
+}

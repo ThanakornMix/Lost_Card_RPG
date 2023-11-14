@@ -6,7 +6,7 @@ class IceItem(BaseItem):
     def __init__(self, x, y, player):
         super().__init__(gItemIce_image_list, "Shard of the cold one",
                          "Left behind of the something greater",
-                         "Said to increase wielder strength slightly and heath")
+                         "Said to increase wielder strength slightly and health")
         self.player = player
         self.X = x
         self.Y = y

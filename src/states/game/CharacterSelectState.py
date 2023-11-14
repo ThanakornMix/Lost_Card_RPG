@@ -10,6 +10,9 @@ from src.world.Rogue import Rogue
 from src.world.Warrior import Warrior
 from src.world.Wizard import Wizard
 
+#text generator
+from src.text_generator import TextGenerator
+
 class CharacterSelectState(BaseState):
     def __init__(self, state_machine):
 
@@ -37,6 +40,26 @@ class CharacterSelectState(BaseState):
 
         self.small_font = pygame.font.Font('./fonts/font.ttf', 24)
         self.medium_font = pygame.font.Font('./fonts/font.ttf', 48)
+
+        #text generator
+        font = pygame.font.Font('./fonts/font.ttf', 20)
+        text = " I am Green Witch, and I request you, great being. The land is in chaos..."
+        self.generator = TextGenerator(text, font, 50, HEIGHT / 2 - 80, 0.1, (255, 255, 255))
+        text1 = " The sacred cards are scattered throughout the land. They exist to protect this land..."
+        self.generator1 = TextGenerator(text1, font, 50, HEIGHT / 2 - 40, 0.1, (255, 255, 255))
+        text2 = " They must not fall to the hand of wrong. Collect them for me, and I will protect them from other"
+        self.generator2 = TextGenerator(text2, font, 50, HEIGHT / 2, 0.1, (255, 255, 255))
+        text3 = " Would you accept my offer, great being?..."
+        self.generator3 = TextGenerator(text3, font, 50, HEIGHT / 2 + 40, 0.1, (255, 255, 255))
+        text4 = " Excellent. I knew you would accept my request. Let me take you the Library..."
+        self.generator4 = TextGenerator(text4, font, 50, HEIGHT / 2 + 80, 0.1, (255, 255, 255))
+
+        #turnoff skip
+        self.generator.skip_able = False
+        self.generator1.skip_able = False
+        self.generator2.skip_able = False
+        self.generator3.skip_able = False
+        self.generator4.skip_able = False
 
         #make change later
         self.clock = pygame.time.Clock()
@@ -83,9 +106,6 @@ class CharacterSelectState(BaseState):
                     #sound
                     self.confirm_sound.play()
                     gSounds['music'].stop()
-                    gSounds['late-hours'].play(-1)
-                    gSounds['campfire_fireplace'].play(-1)
-
                     #character change
                     if self.current_character == 0:
                         self.player = Rogue(self.player_X, self.player_Y)
@@ -99,6 +119,19 @@ class CharacterSelectState(BaseState):
                     })
 
     def render(self, screen):
+        #text generator
+        if not self.generator.fully_displayed:
+            self.generator.text_generation()
+        if not self.generator1.fully_displayed:
+            self.generator1.text_generation()
+        if not self.generator2.fully_displayed:
+            self.generator2.text_generation()
+        if not self.generator3.fully_displayed:
+            self.generator3.text_generation()
+        if not self.generator4.fully_displayed:
+            self.generator4.text_generation()
+
+
         if self.current_character == 0:
             screen.blit(self.bg_image, (0, 0))
         elif self.current_character == 1:
@@ -116,6 +149,12 @@ class CharacterSelectState(BaseState):
             t_enter = self.small_font.render("Rogue", False, (255, 255, 255))
             rect = t_enter.get_rect(center=(WIDTH / 2, HEIGHT / 3))
             screen.blit(t_enter, rect)
+
+            #skill
+            t_enter2 = self.small_font.render("Q Attack, W Evade 1 time and damage up for next attack, E Deal "
+                                              "critical damage", False, (255, 255, 255))
+            rect2 = t_enter2.get_rect(center=(WIDTH / 2, HEIGHT / 3 + 50))
+            screen.blit(t_enter2, rect2)
 
             if self.current_sprite >= len(gRogue_image_list):
                 self.current_sprite = 0
@@ -136,6 +175,14 @@ class CharacterSelectState(BaseState):
             t_enter = self.small_font.render("Warrior", False, (255, 255, 255))
             rect = t_enter.get_rect(center=(WIDTH / 2, HEIGHT / 3))
             screen.blit(t_enter, rect)
+
+            # skill
+            t_enter2 = self.small_font.render("Q Attack, W Deal area damage and reduce damage taken, E Attack and heal",
+                                              False,
+                                              (255, 255, 255))
+            rect2 = t_enter2.get_rect(center=(WIDTH / 2, HEIGHT / 3 + 50))
+            screen.blit(t_enter2, rect2)
+
             if self.current_sprite >= len(gWarrior_image_list):
                 self.current_sprite = 0
 
@@ -156,6 +203,16 @@ class CharacterSelectState(BaseState):
             t_enter = self.small_font.render("Wizard", False, (255, 255, 255))
             rect = t_enter.get_rect(center=(WIDTH / 2, HEIGHT / 3))
             screen.blit(t_enter, rect)
+            # skill
+            t_enter2 = self.small_font.render("Q Deal area damage, W Deal critical area damage", False, (255, 255, 255))
+            t_enter3 = self.small_font.render("E sacrifice health to apply damage up for two turns and evade for 1 "
+                                              "time",
+                                              False, (255, 255, 255))
+            rect2 = t_enter2.get_rect(center=(WIDTH / 2, HEIGHT / 3 + 50))
+            screen.blit(t_enter2, rect2)
+            rect3 = t_enter3.get_rect(center=(WIDTH / 2, HEIGHT / 3 + 70))
+            screen.blit(t_enter3, rect3)
+
             if self.current_sprite >= len(gWizard_image_list):
                 self.current_sprite = 0
 

@@ -1,0 +1,50 @@
+{
+    "spriteSheetURL": "./graphics/elementals_wind_hashashin_FREE/wind_SpriteSheet.png",
+    "type":"none",
+    "size":[288,128],
+    "sprites":[
+
+        {
+            "name":"hashashin_1_BH",
+            "x":0,
+            "y":1408,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"hashashin_2_BH",
+            "x":288,
+            "y":1408,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"hashashin_3_BH",
+            "x":576,
+            "y":1408,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"hashashin_4_BH",
+            "x":864,
+            "y":1408,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"hashashin_5_BH",
+            "x":1152,
+            "y":1408,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"hashashin_6_BH",
+            "x":1440,
+            "y":1408,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+    ]
+}

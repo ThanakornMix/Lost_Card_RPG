@@ -1,0 +1,36 @@
+{
+    "spriteSheetURL": "./graphics/Hero Knight/Take Hit.png",
+    "type":"none",
+    "size":[180,180],
+    "sprites":[
+
+        {
+            "name":"heroknight_1_BH",
+            "x":0,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"heroknight_2_BH",
+            "x":180,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"heroknight_3_BH",
+            "x":360,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+		{
+            "name":"heroknight_4_BH",
+            "x":540,
+            "y":0,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+    ]
+}

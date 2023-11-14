@@ -1,0 +1,22 @@
+{
+    "spriteSheetURL": "./graphics/Elementals_ground_monk_FREE_v1.3/ground_monk_FREESpriteSheet_288x128.png",
+    "type":"none",
+    "size":[288,128],
+    "sprites":[
+
+        {
+            "name":"groundmonk_18_BD",
+            "x":4896,
+            "y":1664,
+            "scalefactor":3,
+            "colorKey":-1
+        },
+        {
+            "name":"groundmonk_18_BD",
+            "x":4896,
+            "y":1664,
+            "scalefactor":3,
+            "colorKey":-1
+        }
+    ]
+}
