@@ -212,9 +212,10 @@ class LootingState(BaseState):
         elif self.current_item == 1:
             self.item_2.draw()
             self.item_2.update()
-        elif self.current_item == 2:
+        elif self.current_item == 21:
             self.item_3.draw()
             self.item_3.update()
 
     def Exit(self):
         pass
+
